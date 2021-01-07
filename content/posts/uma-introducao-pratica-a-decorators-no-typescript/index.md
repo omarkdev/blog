@@ -40,7 +40,7 @@ O site do TypeScript descreve como:
 > “Um Decorator é um tipo especial de declaração que pode ser anexada a uma
 > declaração de classe, método, acessador, propriedade ou parâmetro.”
 
-Essa definição pode não explicar muito o que um *decorator *realmente
+Essa definição pode não explicar muito o que um *decorator* realmente
 representa. Eu prefiro definir como “uma declaração especial para adicionar
 funcionalidades extras a uma declaração de classe, método, acessador,
 propriedade ou parâmetro”.
@@ -50,7 +50,7 @@ o formato `@expression`, onde o valor `expression` representa uma função que
 fará as modificações as classes, métodos, acessadores, propriedades ou
 parâmetros.
 
-Para se criar um *decorator *é bem simples. Como já previamente explicado, os
+Para se criar um *decorator* é bem simples. Como já previamente explicado, os
 *decorators* são apenas funções, essas funções são chamadas em tempo de
 execução. Um exemplo bem simples é criarmos uma função `log` que irá realizar um
 `console.log` no alvo em que ele for utilizado, ficando desta maneira:
@@ -107,7 +107,7 @@ tipos existentes são:
 #### Class Decorator
 
 A maneira mais simples de se começar a entender os *decorators* é começar
-desenvolvendo para classes. Um *decorator *para classe deve ser declarado antes
+desenvolvendo para classes. Um *decorator* para classe deve ser declarado antes
 da declaração da classe. Esse *decorator* recebe um único parâmetro que é o
 construtor da classe alvo.
 
@@ -144,7 +144,7 @@ console.log(new Wizard()); // class_1 { version: '0.0.1' }
 É importante ressaltar que caso você decida retornar um construtor, você deve
 manter a mesma assinatura do alvo.
 
-Você perceberá no decorrer do aprendizado, que esse tipo de *decorator *é o mais
+Você perceberá no decorrer do aprendizado, que esse tipo de *decorator* é o mais
 generalista, pois nele você pode ter acesso à classe inteira, ao invés de
 pequenas partes do objeto.
 
@@ -178,8 +178,8 @@ o protótipo da classe e o nome da propriedade.
 
 Um ponto interessante e importante de se analisar, como já foi dito, recebemos
 como parâmetro o protótipo da classe e não sua instância, sabendo disso é
-possível ver no exemplo que o *decorator *foi executado mesmo sem instanciarmos
-a classe, isso por que o *decorator *é chamado no tempo de execução do arquivo.
+possível ver no exemplo que o *decorator* foi executado mesmo sem instanciarmos
+a classe, isso por que o *decorator* é chamado no tempo de execução do arquivo.
 Isso deve ser levado em consideração na hora de se criar seus *decorators* já
 que você não terá uma chamada no *decorator* a cada vez que instanciar a classe.
 
@@ -238,8 +238,8 @@ e `setters` do próprio JavaScript.
 Para muitos esse é o tipo de *decorator* mais útil oferecido pelo TypeScript. Um
 *decorator* para métodos deve ser declarado antes da declaração do método. Ao se
 utilizar um *method decorator* recebemos 3 parâmetros. O primeiro parâmetro é o
-`target` que é protótipo da classe, igual ao que vimos no *property decorator*.*
-*O segundo parâmetro é o `propertyKey` que é o nome do método em que estamos
+`target` que é protótipo da classe, igual ao que vimos no *property decorator*. 
+O segundo parâmetro é o `propertyKey` que é o nome do método em que estamos
 aplicando. Já o último é o `propertyDescriptor`, que é um conjunto de
 propriedades que definem uma propriedade de um objeto em JavaScript, neste
 objeto podemos ter acesso a propriedades como: `configurable`, `enumerable`,
@@ -302,7 +302,7 @@ for (const key in user) {
 
 Agora será mostrado na tela apenas `name`.
 
-Esse tipo de *decorator *é extremamente útil quando queremos aplicar mudanças no
+Esse tipo de *decorator* é extremamente útil quando queremos aplicar mudanças no
 comportamento dos nossos métodos e como temos acesso a quase tudo que representa
 o método, se torna muito simples aplicarmos as mudanças que queremos.
 
