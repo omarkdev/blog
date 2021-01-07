@@ -7,7 +7,7 @@ date: '2019-01-14T19:13:54.056Z'
 
 Um relato sobre os aprendizados que tive para se conseguir um trabalho home office e que talvez te ajude a conseguir um.
 
-### A decisão de trabalhar home office
+## A decisão de trabalhar home office
 
 Antes de começar a trabalhar home office, eu trabalhava presencial em uma empresa. Após um longo tempo pensando nos pontos em que eu queria mudar em minha carreira, cheguei a conclusão que gostaria de trabalhar home office (falarei mais sobre isso em outro artigo), então comecei a pesquisar.
 
@@ -23,7 +23,7 @@ Se você deseja arranjar um trabalho home office, eu aconselho fortemente que vo
 
 Como pude perceber, é mais fácil você encontrar um site específico para vagas de empresas, do que sites de empresas que mostre as vagas.
 
-### Procurando sites com vagas do exterior
+## Procurando sites com vagas do exterior
 
 Começando a busca pelo os sites que tinham vagas do exterior, como não é difícil de se imaginar, a quantidade de resultados é gigantesca, por isso eu resolvi focar na qualidade dos sites e não em quantidade de sites encontrados. Os sites que escolhi, eram sites que tinham muitas vagas e/ou as vagas eram muito no perfil em que procurava. Os escolhidos foram:
 
@@ -36,7 +36,7 @@ Encontrado esses sites, comecei a pesquisar neles as vagas com tecnologias que m
 
 > **Dica:** A maioria dos sites de vagas, tem uma funcionalidade de notificar via email quando tem novas vagas baseado em um filtro que você determina.
 
-### Aprendizado com o primeiro não
+## Aprendizado com o primeiro não
 
 Importante dizer que durante tudo que eu relatar aqui, algumas coisas aconteceram de forma assíncrona, como este aprendizado.
 
@@ -51,7 +51,7 @@ essa entrevista tomou.
 
 Depois de um certo tempo recebi a resposta dessa empresa e obviamente a resposta era não, porém com a dica, “_Aconselhamos você pesquisar mais sobre as empresas em que deseja trabalhar_”. Isso pode ter sido muito ingênuo da minha parte, mas a partir disso eu comecei a pesquisar sobre todas as empresas que eu aplicava e pesquisava novamente sobre as quais eu tinha uma entrevista agendada.
 
-### Preparando minhas informações
+## Preparando minhas informações
 
 Não precisei muito para notar que o processo de aplicar em vagas é algo muito repetitivo, pois basicamente você irá preencher a mesmas informações várias vezes, mas na maioria dos casos isso não era um problema, pois qual a dificuldade de copiar e colar o link do seu GitHub? Mas o maior complicado de se preencher era aqueles campos em que pedia algo descritivo sobre você, como um ‘Cover letter’.
 
@@ -65,7 +65,7 @@ Isso vai lhe poupar muito tempo, pois no meu caso além de eu não falar e escre
 
 > **Importante:** Mesmo que você aplique em várias vagas, pode ser que o retorno não seja tão alto, de várias vagas aplicadas, poucas resultaram em entrevistas, então não fique decepcionado se isso acontecer.
 
-### Se rendendo ao clássico LinkedIn
+## Se rendendo ao clássico LinkedIn
 
 Nunca gostei muito do LinkedIn, mas tinha meu perfil lá e para todos que eu falava sobre essa vontade de arrumar outro emprego, respondiam _“já olhou se tem vaga no linkedin?”_.
 
@@ -79,7 +79,7 @@ Após isso, comecei a pesquisar vagas que me interessavam, utilizando coisas com
 
 Até esse ponto, eu tinha conseguido algumas entrevistas, porém já notei uma pequena dificuldade no meu inglês.
 
-### O open source também ajuda
+## O open source também ajuda
 
 ![](./images/screenshot-remote-jobs-brazil.png)
 
@@ -89,13 +89,13 @@ Comecei a acessar os links de todas as empresas da lista, para os links que leva
 
 Devo dizer que esse foi o método mais eficaz de todos, pois aparentemente a plataforma que a empresa propõe é a que tem o retorno mais rápido. Os emails eram respondido mais rapidamente e consegui mais entrevistas dessa maneira do que em site de terceiros.
 
-### O meu inglês não estava pronto
+## O meu inglês não estava pronto
 
 Até esse momento eu tinha conseguindo várias entrevistas, porém, como já era de se esperar eu pude perceber que meu inglês não estava tão bom. Em várias conversas com pessoas das empresas, eu tinha algumas dificuldades em falar sobre certas coisas, porém o mais incrível foi que as empresas obviamente notaram isso mas foram super educadas e continuaram com a possibilidade, inclusive algumas falaram que durante a continuação do processo seletivo era bom que eu entrasse em um curso de inglês intensivo para fazer isso funcionar.
 
 Porém, depois de muitas entrevistas e de muitas repostas negativas, pude perceber uma coisa, meu inglês não estava tão bom e foi ai que percebi que talvez uma vaga do exterior não fizesse tanto sentido agora. Então, vamos recomeçar só que procurando vagas do Brasil.
 
-### Procurando sites com vagas do Brasil
+## Procurando sites com vagas do Brasil
 
 Comecei exatamente da mesma maneira que havia começado antes, seguindo os mesmos passos, primeiro procurando sites com vagas, pesquisar no LinkedIn vagas, olhar o repositório com de vagas remotas com empresas brasileiras que trabalhavam remotamente. Porém como os métodos já feitos me traziam uma grande variedade de vagas, eu escolhi apenas um site com vagas, o [_Programathor_](https://programathor.com.br).
 
@@ -106,7 +106,7 @@ Um bloqueio que eu tinha quando procurava vagas no exterior, era sobre me comuni
 
 O processo com as duas recrutadoras, foi incrível, inclusive fiquei surpreendido com a ligação da Geek Hunter, perguntando qual era o perfil de vagas que eu procurava, conversamos sobre isso e comentei que eu gostaria apenas de vagas home office e se existia hoje vagas assim ali, ela respondeu que não tinham muitas vagas home office, a maioria era presencial, mas que era possível. Infelizmente com as duas recrutadora a maioria das empresas que entraram em contato comigo foi para vagas presenciais, mesmo assim aconselho fortemente vocês entenderem como funciona o processo, pois pode ser bem útil caso estejam procurando vagas.
 
-### Finalmente conseguindo um trabalho home office
+## Finalmente conseguindo um trabalho home office
 
 Como já dito, muito das abordagens descritas aqui, foram feitas ao mesmo tempo, então pode ser que enquanto eu procurava vagas nas empresas do repositório eu estava ainda procurando vagas nos sites de vagas. Isso é importante dizer porque mesmo o ultimo passo descrito sendo o das recrutadoras, não foi assim que eu consegui o trabalho.
 
@@ -114,7 +114,7 @@ Outro ponto importante, mesmo que pareça que foi várias decisões uma atrás d
 
 Enquanto eu procurava vagas nas empresas no repositório [_remotes-jobs-brazil_](https://github.com/lerrua/remote-jobs-brazil) eu encontrei uma vaga na empresa [Crawly](https://www.crawly.com.br/), que é a empresa que estou hoje. O processo foi algo bem amigável, onde em algumas etapas conversei com o CTO e com o CEO.
 
-### Os maiores aprendizados dessa busca
+## Os maiores aprendizados dessa busca
 
 Desse processo todo, consegui aprender algumas coisas bem importantes que com certeza podem te ajudar, alguma dessas coisas podem ser bem contraditórias a maneira em que procurei, então você que irá decidir qual a dose certa para cada decisão.
 
