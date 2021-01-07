@@ -47,6 +47,8 @@ googleAnalytics = ""
 
 [social]
   github = "https://github.com/omarkdev"
+  twitter = "https://twitter.com/@omarkdev"
+  instagram = "https://instagram.com/mmmarcosfelipe"
   rss = "index.xml"
 
 [taxonomies]
