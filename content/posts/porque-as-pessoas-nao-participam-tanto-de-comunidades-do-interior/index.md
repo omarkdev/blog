@@ -6,8 +6,6 @@ draft: false
 
 ![](./images/conference-room.png)
 
-### Porquê as pessoas não participam tanto de comunidades do interior
-
 Cada vez é mais comum vermos novas comunidades ou eventos surgindo, tanto no
 interior, quanto em capitais e isso é ótimo, pois traz oportunidades de
 conhecimento para vários lugares. Provavelmente se você é do interior e vive em
@@ -25,7 +23,7 @@ feita. Muitas pessoas da área preferem ir a um evento de outra cidade, onde o
 custo é relativamente mais alto, do que ir em um evento que pode estar
 acontecendo bem próximo, mas por que isso acontece?
 
-### Complexo de vira-lata
+## Complexo de vira-lata
 
 Esse termo foi criado pelo escritor Nelson Rodrigues, que originalmente
 referia-se ao trauma sofrido pelos brasileiros em 1950, quando a seleção
@@ -49,7 +47,7 @@ relevância?!)
 Porém, penso que esse assunto não se limita apenas ao brasileiro com o exterior,
 acredito que também acontece internamente.
 
-### Trazendo para nossa realidade
+## Trazendo para nossa realidade
 
 Se você está inserido de alguma forma nessas comunidades locais “menores”, faça
 um exercício de lembrança, quantas pessoas você já viu criticando os eventos da
@@ -70,7 +68,7 @@ O problema não está em pagar R$ 1.800,00 em um ingresso, ou se deslocar para i
 em um evento em outra cidade, ou achar *foda* uma comunidade de outra cidade,
 problema é criticar a comunidade local ou seus membros simplesmente pelo local.
 
-### Mas tudo isso muda quando quem fala é de outra comunidade
+## Mas tudo isso muda quando quem fala é de outra comunidade
 
 De repente a comunidade da sua cidade que está organizando um evento consegue
 trazer um palestrante de uma comunidade maior e o evento lota como nunca e os
@@ -90,7 +88,7 @@ nossas áreas, mas a critica está em quando isso não é válido simplesmente p
 fato de que a pessoa que palestra é de outra empresa ou não é “famoso” nas
 comunidades maiores.
 
-### Faça parte da mudança
+## Faça parte da mudança
 
 Um problema, só é um problema, porque existe solução.
 
@@ -110,7 +108,7 @@ o outro é espelharmos a incapacidade que pensamos ter nos outros que julgamos
 iguais, “se eu não consigo, mas ele também não consegue”, isso é uma relação
 prejudicial com o meio em que vivemos, nivelando por baixo.
 
-### Tem pessoas muito foda próximo de você
+## Tem pessoas muito foda próximo de você
 
 É bem provável que você já tenha ouvido “*façam networking*” em eventos da área.
 Isso meio que se tornou cultural em nossa área, mas para você fazer networking,
