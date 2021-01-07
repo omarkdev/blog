@@ -53,7 +53,7 @@ problemas de nulos e indefinidos.
 São várias as possibilidades que tentam ajudar resolver esse tipo de problema,
 uma delas é o design pattern *Null Object*.
 
-### A ideia básica
+## A ideia básica
 
 O *Null Object* é um design pattern que utiliza herança para criar
 representações válidas de um dado de valor *null*. A intenção desse padrão é
@@ -184,7 +184,7 @@ quem for utilizar a *factory* apenas terá a mesma confiança, além disso vemos
 também que diminuímos os casos de testes pois não tem mais uma exceção lógica.
 Resumidamente, resolvemos os 3 problemas descritos anteriormente.
 
-### Quando usar
+## Quando usar
 
 Assim como qualquer abordagem que utilizamos em nossa área, cada uma tem seus
 casos de uso para determinar quando usar, afinal cada uma tenta resolver
@@ -202,7 +202,7 @@ Como todos os padrões, o padrão *Null Object* também tem suas vantagens e
 desvantagens, pois assim conseguimos definir se as vantagens valem o preço das
 desvantagens no nosso caso de uso, ajudando a definir quando usar o padrão.
 
-#### Vantagens
+### Vantagens
 
 * O cliente consegue lidar de forma mais simples e de maneira uniforme com os
 respectivos objetos;
@@ -213,7 +213,7 @@ respectivos objetos;
 * Evita quebrar o polimorfismo e violar o LSP do SOLID causado pelos valores
 nulos.
 
-#### Desvantagens
+### Desvantagens
 
 * Pode esconder problemas que seriam pegos ao utilizar valores *null*;
 * Se não bem explicito para os responsáveis pela manutenção, pode ser que acabem
