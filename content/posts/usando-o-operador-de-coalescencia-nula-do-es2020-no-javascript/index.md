@@ -66,7 +66,7 @@ console.log(volume);
 ```
 
 E como já foi dito, o valor se preocupa apenas com `undefined` e `null`, todos
-os outros valores *falsy *são considerados como “verdadeiro”.
+os outros valores *falsy* são considerados como “verdadeiro”.
 
 ```javascript
 console.log(0 ?? 'Awesome'); // 0
