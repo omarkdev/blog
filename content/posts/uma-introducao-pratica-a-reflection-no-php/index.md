@@ -59,32 +59,20 @@ sabe que ele precisa dessa instância? Com **reflexão**.
 
 Trabalhar com **reflexão** no PHP é possível graças as classes mágicas de
 [Reflection](https://www.php.net/manual/pt_BR/book.reflection.php) do PHP. Essas
-classes estão disponíveis no *core *da linguagem desde a versão 5, então não é
+classes estão disponíveis no *core* da linguagem desde a versão 5, então não é
 necessário fazer nenhuma instalação. Existem algumas classes de **Reflection**
 no PHP, sendo que cada uma depende de onde você vai aplicar:
 
-* [ReflectionClass](https://www.php.net/manual/pt_BR/class.reflectionclass.php)*
-*—* *Utilizar em classes;
-* [ReflectionExtension](https://www.php.net/manual/pt_BR/class.reflectionextension.php)*
-— Utilizar em extensões;*
-* [ReflectionFunction](https://www.php.net/manual/pt_BR/class.reflectionfunction.php)*
-*— Utilizar em funções;
-* [ReflectionFunctionAbstract](https://www.php.net/manual/pt_BR/class.reflectionfunctionabstract.php)*
-*— Utilizar em funções abstratas;
-* [ReflectionMethod](https://www.php.net/manual/pt_BR/class.reflectionmethod.php)
-— Utilizar em métodos;
-* [ReflectionObject](https://www.php.net/manual/pt_BR/class.reflectionobject.php)*
-*— Utilizar em
-[objetos](https://www.php.net/manual/pt_BR/language.types.object.php);
-* [ReflectionParameter](https://www.php.net/manual/pt_BR/class.reflectionparameter.php)
-— Utilizar em parâmetros (de métodos ou funções);
-* [ReflectionProperty](https://www.php.net/manual/pt_BR/class.reflectionproperty.php)
-— Utilizar em propriedades de classes;
-* [ReflectionType](https://www.php.net/manual/pt_BR/class.reflectiontype.php)* —
-*Utilizar para saber sobre tipos de retorno*;*
-* [ReflectionGenerator](https://www.php.net/manual/pt_BR/class.reflectiongenerator.php)*
-*— Utilizar em
-[geradores](https://www.php.net/manual/pt_BR/class.generator.php).
+* *[ReflectionClass](https://www.php.net/manual/pt_BR/class.reflectionclass.php) — Utilizar em classes*;
+* *[ReflectionExtension](https://www.php.net/manual/pt_BR/class.reflectionextension.php) — Utilizar em extensões*;
+* *[ReflectionFunction](https://www.php.net/manual/pt_BR/class.reflectionfunction.php) — Utilizar em funções*;
+* *[ReflectionFunctionAbstract](https://www.php.net/manual/pt_BR/class.reflectionfunctionabstract.php) — Utilizar em funções abstratas*;
+* *[ReflectionMethod](https://www.php.net/manual/pt_BR/class.reflectionmethod.php) — Utilizar em métodos*;
+* *[ReflectionObject](https://www.php.net/manual/pt_BR/class.reflectionobject.php) — Utilizar em [objetos](https://www.php.net/manual/pt_BR/language.types.object.php)*;
+* *[ReflectionParameter](https://www.php.net/manual/pt_BR/class.reflectionparameter.php) — Utilizar em parâmetros (de métodos ou funções)*;
+* *[ReflectionProperty](https://www.php.net/manual/pt_BR/class.reflectionproperty.php) — Utilizar em propriedades de classes*;
+* *[ReflectionType](https://www.php.net/manual/pt_BR/class.reflectiontype.php) — Utilizar para saber sobre tipos de retorno*;
+* *[ReflectionGenerator](https://www.php.net/manual/pt_BR/class.reflectiongenerator.php) — Utilizar em [geradores](https://www.php.net/manual/pt_BR/class.generator.php)*.
 
 Vamos seguir com a ideia do exemplo em Laravel, mas agora fora do framework.
 Imagine que precisamos instanciar a classe `UserController` que espera uma
