@@ -1,3 +1,10 @@
+body {
+    font-family: "Helvetica Neue", "Arial", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #183247;
+}
+
 .highlight {
     border: 1px solid;
     border-color: #ddd #ddd #ccc;
