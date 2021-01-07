@@ -5,8 +5,6 @@ date: 2020-03-10T12:30:51.333Z
 draft: false
 ---
 
-### Usando o operador de coalescência nula do ES2020 no JavaScript
-
 ![](./images/question-mark.jpeg)
 
 Foi introduzido um novo operador para gerenciar valores indefinidos ou nulos no
@@ -28,7 +26,7 @@ console.log(task);
 // Write a article
 ```
 
-### Bem parecido como antigamente
+## Bem parecido como antigamente
 
 A similaridade com os outros operador `&&` e `||` é bem grande, mas por que não
 utilizar os operadores antigos? Esses operadores são utilizados para manipular
