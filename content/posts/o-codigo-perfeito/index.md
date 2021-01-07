@@ -23,7 +23,7 @@ Já o mundo dos sentidos seria o mundo em que vivemos, em outras palavras o mund
 
 Somos capazes de imaginar um código perfeito, pois essa forma está no mundo das ideias, mas jamais desenvolveremos um assim, pois o desenvolvimento pertence ao mundo dos sentidos. Qualquer código terá bugs, pontos a melhorar ou problemas de performance. Já a ideia do nosso código perfeito não, essa ideia é perfeita.
 
-### O paradigma da perfeição
+## O paradigma da perfeição
 
 Vivemos em mundo imperfeito, sujeito a vários erros. Usamos os aprendizados para tentarmos chegar a perfeição e nos livrarmos dos erros, pois acreditamos que o modelo idealizado por nós do código perfeito é um objetivo factível.
 
