@@ -4,8 +4,6 @@ date: 2018-05-20T00:55:26.267Z
 draft: false
 ---
 
-### PHP Internals — Introdução a HashTable
-
 Recentemente iniciei uma jornada de estudos sobre **PHP Internals**,
 principalmente sobre as mudanças que ocorreram do PHP 5 para a versão 7.
 Infelizmente existe pouco conteúdo sobre o assunto hoje de forma fácil e em
@@ -13,7 +11,7 @@ português, por isso me senti motivado a começar a escrever sobre o assunto, pa
 difundir o conhecimento sobre tal e quem sabe termos como consequência mais
 assuntos sobre o mesmo.
 
-### O que é HashTable?
+## O que é HashTable?
 
 Basicamente podemos dizer que HashTable é uma estrutura de dados onipresente que
 associa chaves de pesquisa a valores. Para ficar mais simples, podemos dizer que
@@ -49,7 +47,7 @@ calcula o **hash** e em seguida percorre a lista encadeada de “possíveis”
 valores até encontrar o valor correspondente, ou não. Os elementos da lista
 encadeada são chamados de **Buckets**.
 
-### Buckets
+## Buckets
 
 A estrutura de Buckets do HashTable é semelhante a isso:
 
@@ -80,7 +78,7 @@ temos **nNumUsed** com o valor 5 e **nNumOfElements** também com o valor 5, mas
 se deletarmos o elemento que está no slot **2**, que é o nosso terceiro item, o
 valor de **nNumUsed** ainda é 5, porém **nNumOfElements** agora é 4.
 
-### Tombstone
+## Tombstone
 
 Quando deletamos um elemento da lista de Buckets, primeira coisa que fazemos,
 como já vimos, é decrementar o valor **nNumOfelements** no Hashtable, depois
@@ -93,7 +91,7 @@ todos os outros 998 elementos em uma posição anterior, isso não seria nem um
 pouco performático, ao invés disso apenas marcamos como excluído e na hora de
 percorrer a lista apenas filtramos todos que não são “excluídos”.
 
-### Conclusão
+## Conclusão
 
 Isso foi apenas uma introdução de como funciona o conceito de HashTable no PHP,
 caso tenha interesse em aprender mais coisas, sugiro estes artigos e palestras:
