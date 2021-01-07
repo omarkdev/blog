@@ -6,8 +6,6 @@ draft: false
 
 ![Yoda learning grammar](./images/yoda-learning-grammar.jpeg)
 
-### Yoda Conditions — Aprender devo eu?
-
 Provavelmente em algum momento do tempo em que você passou programando, você fez
 uma atribuição de uma variável dentro de um `if` que não era para existir,
 quando era para ser `name == "Yoda"` mas por algum motivo você esqueceu de
@@ -54,14 +52,14 @@ Desta maneira, a constante `18` não pode ter seu valor alterado, logo ao
 tentarmos mudar o valor dessa constante, uma exceção será disparada. Dessa
 forma, conseguimos encontrar os bugs de forma mais simples.
 
-### Quando utilizar ou não utilizar?
+## Quando utilizar ou não utilizar?
 
 O único propósito desse estilo de programação é pegar uma atribuição de variável
 indesejada quando você fizer uma comparação. Logo, **você deve utilizar quando
 há uma chance de uma variável acidentalmente ser atribuída a um novo valor**.
 Vamos a alguns exemplos.
 
-#### Exemplo 1
+### Exemplo 1
 
 ```javascript
 if (user.getName() == "Barbara Liskov") {
@@ -76,7 +74,7 @@ desenvolvedores podem optar pela utilização do estilo nessa situação, caso
 posteriormente refatorem o código e substituam a chamada de função por uma
 variável.
 
-#### Exemplo 2
+### Exemplo 2
 
 ```javascript
 if (userEmail != user.getEmail()) {
@@ -88,7 +86,7 @@ Já nessa expressão, é necessário utilizar esse estilo, pois é muito fácil
 esquecermos o operador de negação, ao fazer isso a variável `userEmail` poderia
 ter seu valor alterado.
 
-#### Exemplo 3
+### Exemplo 3
 
 ```javascript
 if (userEmail == authenticatedUserEmail) {
@@ -101,7 +99,7 @@ utilizar, você acertou. Nessa expressão, não faz diferença invertemos a orde
 porque ambos são variáveis, então mesmo que esquecermos um operador de igual não
 há nada que possa ser feito, pois haverá atribuição de qualquer maneira.
 
-#### Exemplo 4
+### Exemplo 4
 
 ```javascript
 if (userAge >= 18) {
@@ -114,7 +112,7 @@ E por último, nessa expressão não é necessário utilizar esse estilo, porque
 ou igual a 18. Usar condições Yoda aqui tornaria esse código mais difícil de
 ler. É recomendável utilizar condições Yoda apenas em expressões de igualdade.
 
-### O beneficio ficou bem claro, mas…
+## O beneficio ficou bem claro, mas…
 
 Ficou simples de entender quais são os benefícios de utilizar as condições Yoda,
 mas como tudo nessa vida, temos efeitos colaterais ao adotarmos esse estilo de
