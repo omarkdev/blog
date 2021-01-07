@@ -42,7 +42,12 @@ Importante dizer que durante tudo que eu relatar aqui, algumas coisas acontecera
 
 Eu ainda estava aplicando nas vagas que eu encontrava nos sites escolhidos, porém de uma forma que queria gerar quantidade, até que consegui a primeira entrevista e que foi de certa forma um fracasso graças a minha abordagem.
 
-Conversando com o recrutador da empresa, surgiram perguntas até que comum nas entrevistas, como: s_obre minha experiência_, _como eu me comportava em trabalho em equipe_, _quais eram meus defeitos e qualidades_, coisas clichês em entrevistas, até que ele me fez uma pergunta simples mas que mudou todo o rumo da entrevista: “_O que você sabe sobre a empresa?_” e nesse momento eu travei, pois eu **não sabia nada, além do nome da empresa**, respondendo que não consegui pesquisar e não sabia nada, ele respondeu “_Então você não sabe nada sobre nós?_”, então vocês já podem adivinhar que caminho essa entrevista tomou.
+Conversando com o recrutador da empresa, surgiram perguntas até que comum nas entrevistas, como: *sobre minha experiência*, 
+*como eu me comportava em trabalho em equipe*, *quais eram meus defeitos e qualidades*, coisas clichês em entrevistas, até 
+que ele me fez uma pergunta simples mas que mudou todo o rumo da entrevista: “*O que você sabe sobre a empresa?*” e nesse momento 
+eu travei, pois eu **não sabia nada, além do nome da empresa**, respondendo que não consegui pesquisar e não sabia nada, 
+ele respondeu “*Então você não sabe nada sobre nós?*”, então vocês já podem adivinhar que caminho 
+essa entrevista tomou.
 
 Depois de um certo tempo recebi a resposta dessa empresa e obviamente a resposta era não, porém com a dica, “_Aconselhamos você pesquisar mais sobre as empresas em que deseja trabalhar_”. Isso pode ter sido muito ingênuo da minha parte, mas a partir disso eu comecei a pesquisar sobre todas as empresas que eu aplicava e pesquisava novamente sobre as quais eu tinha uma entrevista agendada.
 
