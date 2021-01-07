@@ -43,7 +43,7 @@ sobretudo, no futebol.” — Nelson Rodrigues.*
 Cada vez mais comum se torna ouvir falar desse termo, bem provável que tenhamos
 escutado isso referindo se a o que os brasileiros acham de si mesmo comparados
 com outros países. Recomendo sobre o assunto você assistir um vídeo de um
-*gringo *falando sobre esse assunto (talvez você ache que tenha mais
+*gringo* falando sobre esse assunto (talvez você ache que tenha mais
 relevância?!)
 
 Porém, penso que esse assunto não se limita apenas ao brasileiro com o exterior,
@@ -67,7 +67,7 @@ problemático, se a pessoa da mesma realidade que a minha não consegue, por cau
 da nossa realidade, eu também não consigo.
 
 O problema não está em pagar R$ 1.800,00 em um ingresso, ou se deslocar para ir
-em um evento em outra cidade, ou achar *foda *uma comunidade de outra cidade,
+em um evento em outra cidade, ou achar *foda* uma comunidade de outra cidade,
 problema é criticar a comunidade local ou seus membros simplesmente pelo local.
 
 ### Mas tudo isso muda quando quem fala é de outra comunidade
