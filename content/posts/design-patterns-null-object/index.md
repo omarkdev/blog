@@ -37,16 +37,16 @@ Hoare
 Quando falamos especificamente sobre orientação a objetos, trabalhar com
 referência nula pode ser um problema um pouco mais complexo quando analisamos o
 design do nosso código. Steve Smith (entre alguns outros programadores) defende
-no artigo[ Nulls Break
-Polymorphism](https://ardalis.com/nulls-break-polymorphism)* *em seu blog que ao
+no artigo *[Nulls Break
+Polymorphism](https://ardalis.com/nulls-break-polymorphism)* em seu blog que ao
 utilizar referência nula nós quebramos o polimorfismo e violamos o [princípio da
 substituição de Liskov ](https://deviq.com/liskov-substitution-principle/)do
 SOLID.
 
 Mas não pense que esse problema de referência nula é uma particularidade apenas
-de linguagens orientada a objetos. [No artigo Top 10 JavaScript errors from
+de linguagens orientada a objetos. No artigo *[Top 10 JavaScript errors from
 1000+ projects (and how to avoid
-them)](https://rollbar.com/blog/top-10-javascript-errors/)* *que está no blog da
+them)](https://rollbar.com/blog/top-10-javascript-errors/)* que está no blog da
 empresa [Rollbar](https://rollbar.com/), podemos ver que 8 dos 10 erros são
 problemas de nulos e indefinidos.
 
@@ -117,7 +117,7 @@ class Client {
 No exemplo, temos a interface *Logger* que representará todos os tipos de logs,
 temos também a *factory* *LoggerFactory* responsável por decidir qual mecanismo
 de *log* criar baseado no ambiente e que pode retornar *null* e por último a
-classe *Client *que utiliza a factory e faz uma verificação para ver se é
+classe *Client* que utiliza a factory e faz uma verificação para ver se é
 *null*.
 
 Com esse exemplo extremamente simples podemos notar algumas coisas:
@@ -144,9 +144,9 @@ assim como no exemplo anterior;
 diferente do exemplo anterior que poderia criar *Logger* e *null*;
 * A interface *Logger* define o contrato que o cliente utilizará, assim como no
 exemplo anterior;
-* A classe *ConsoleLogger* implementa a interface *Logger *e provém um
+* A classe *ConsoleLogger* implementa a interface *Logger* e provém um
 comportamento funcional, assim como no exemplo anterior;
-* A classe *NullLogger *implementa a classe *Logger* e provém um comportamento
+* A classe *NullLogger* implementa a classe *Logger* e provém um comportamento
 neutro, diferente do exemplo anterior onde não existia essa classe.
 
 Analisando o diagrama, podemos ver que pouca coisa realmente mudou, mas ao
@@ -177,7 +177,7 @@ class Client {
 }
 ```
 
-Vendo o resultado, conseguimos compreender que agora para o *Client *pouco
+Vendo o resultado, conseguimos compreender que agora para o *Client* pouco
 importa se realmente a informação será logada ou não, ele apenas confia que a
 *factory* retornou o que é necessário para aquela ação naquele contexto e agora
 quem for utilizar a *factory* apenas terá a mesma confiança, além disso vemos
@@ -223,8 +223,8 @@ o *NullObject* representa.
 
 Um ponto importante que também deve ser levado em consideração na hora de
 decidir se vale a pena usar o design pattern *Null Object* é saber que na
-maioria das vezes ele será utilizado com outro padrão, seja uma *factory*,*
-builder *ou outro. Isso determina saber quando usar o outro padrão também e
+maioria das vezes ele será utilizado com outro padrão, seja uma *factory*, 
+*builder* ou outro. Isso determina saber quando usar o outro padrão também e
 saber se a utilização de ambos faz sentido para o caso de uso apresentado.
 
 Antes de sair colocando esse padrão em todos os seus projetos e alimentando seu
