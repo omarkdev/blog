@@ -73,7 +73,7 @@ seria como chamar o `flat` sem parâmetros ou informando o valor 1.
 ### Object.fromEntries()
 
 A função cria um novo objeto a partir de um
-[iterable](https://alligator.io/js/iterables/)* *que tenha pares chave-valor.
+*[iterable](https://alligator.io/js/iterables/)* que tenha pares chave-valor.
 
 ``` javascript
 const entries = [ ['name', 'Marcos'], ['site', 'omark.dev'], ['twitter', '@omarkdev'] ];
