@@ -16,7 +16,7 @@ deixamos de passar algo.
 É importante saber que para rodar os exemplos que serão apresentados, você
 precisará do NodeJS a partir da versão 12, ou com o Chrome na versão 72.
 
-### Array#{flat,flatMap}
+## Array#{flat,flatMap}
 
 O método `flat` cria um novo array concatenando todos os elementos que são
 sub-arrays.
@@ -70,7 +70,7 @@ const arr1FlattedMultipliedByTwo = arr1.flatMap(v => [ v * 2 ]);
 É importante saber que o `flatMap` por padrão é definido com profundidade 1, que
 seria como chamar o `flat` sem parâmetros ou informando o valor 1.
 
-### Object.fromEntries()
+## Object.fromEntries()
 
 A função cria um novo objeto a partir de um
 *[iterable](https://alligator.io/js/iterables/)* que tenha pares chave-valor.
@@ -82,7 +82,7 @@ Object.fromEntries(entries);
 // {name: "Marcos", site: "omark.dev", twitter: "@omarkdev"}
 ```
 
-### String#{trimStart,trimEnd}
+## String#{trimStart,trimEnd}
 
 Os métodos `trimStart` e `trimEnd` tem quase a mesma finalidade, ambos removem
 os espaços em branco de algum lado de uma string, a diferença é que o `trimEnd`
@@ -99,7 +99,7 @@ message.trimStart();
 // "Hello world!     "
 ```
 
-### Symbol#description
+## Symbol#description
 
 Antigamente caso precisássemos saber qual a descrição do nosso `Symbol` era
 necessário chamar o método `toString`, que retornava a descrição dentro de
@@ -125,7 +125,7 @@ symbol1.description;
 // "Awesome"
 ```
 
-### Parâmetros opcionais no catch
+## Parâmetros opcionais no catch
 
 Agora o ES10 nos permite criar blocos de `try/catch` sem que seja necessário
 fornecer o parâmetro de erro no bloco de `catch`.
@@ -142,7 +142,7 @@ try {
 Esse tipo de abordagem é muito útil para quando você sabe que não vai utilizar o
 objeto de erro.
 
-### Revisão de Function#toString
+## Revisão de Function#toString
 
 Nas versões anteriores do ECMAScript, você pode imprimir o código-fonte de uma
 função usando o método `toString`, porém todos os espaços em branco e
@@ -159,7 +159,7 @@ sum.toString();
 // }"
 ```
 
-### Estabilidade no Array#sort
+## Estabilidade no Array#sort
 
 Anteriormente, o V8 (Motor do JavaScript) usava um método de ordenação chamado
 QuickSort para arrays que tinham mais de 10 elementos, apesar de ser um método
@@ -171,12 +171,12 @@ Caso você queira saber mais sobre o assunto, você pode ver a
 [demo](https://mathiasbynens.be/demo/sort-stability) do [Mathias
 Bynens](https://mathiasbynens.be/).
 
-### Melhor formatação no JSON.stringify
+## Melhor formatação no JSON.stringify
 
 Foi adicionado uma melhoria para impedir que o `JSON.stringify` retorne
 caracteres Unicode mal formatados.
 
-### Melhorias no JSON
+## Melhorias no JSON
 
 A Sintaxe do JSON é definido pelo
 [ECMA-404](http://www.ecma-international.org/publications/standards/Ecma-404.htm)
