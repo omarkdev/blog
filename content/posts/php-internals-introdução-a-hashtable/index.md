@@ -55,8 +55,8 @@ A estrutura de Buckets do HashTable é semelhante a isso:
 
 ![Exemplo de HashTable com Bucket’s no PHP](./images/example-hashtable-with-buckets-in-php.png)
 
-Neste exemplo, ao inserirmos um valor com a chave **bar **a função **hash
-**retornou o mesmo inteiro da chave **foo** então os elementos foram adicionados
+Neste exemplo, ao inserirmos um valor com a chave **bar** a função **hash** 
+retornou o mesmo inteiro da chave **foo** então os elementos foram adicionados
 na lista encadeada, sendo que o bucket **foo** tem um ponteiro que aponta para o
 próximo bucket que é **bar**.
 
@@ -68,17 +68,17 @@ foi especificada.
 
 Quando armazenamos um valor dentro de nosso array, além de armazenarmos os
 Buckets, precisamos armazenar também outras informações, como, **número total de
-elementos **que chamaremos de **nNumUsed **e** número de elementos usados **que
+elementos** que chamaremos de **nNumUsed** e **número de elementos usados** que
 chamaremos de **nNumOfElements**, entre outras coisas.
 
 No momento de inserção de elementos não faz muito sentido ter **nNumUsed (número
 total de elementos)** e **nNumOfElements (número de elementos usados)**, mas a
 partir do momento que começamos a excluir elementos de nosso array, essas
 informações se tornam importantes. Imagine o seguinte, se armazenamos 5 itens
-dentro de um array, os slots de **0 **a **4** estão sendo utilizados, então
-temos **nNumUsed **com o valor 5 e **nNumOfElements** também com o valor 5, mas
+dentro de um array, os slots de **0** a **4** estão sendo utilizados, então
+temos **nNumUsed** com o valor 5 e **nNumOfElements** também com o valor 5, mas
 se deletarmos o elemento que está no slot **2**, que é o nosso terceiro item, o
-valor de **nNumUsed** ainda é 5, porém **nNumofElements **agora é 4.
+valor de **nNumUsed** ainda é 5, porém **nNumOfElements** agora é 4.
 
 ### Tombstone
 
