@@ -33,7 +33,7 @@ tsc --target ES5 --experimentalDecorators
 Mesmo que inicialmente os *decorators* possam parecer mágicos, eles são simples
 de se entender e fáceis de se criar.
 
-### Mas afinal, o que é um decorator?
+## Mas afinal, o que é um decorator?
 
 O site do TypeScript descreve como:
 
@@ -91,7 +91,7 @@ Como é possível analisar, agora ao invés de recebermos o alvo como parâmetro
 recebemos o parâmetro que informamos e temos que retornar uma função, que será
 executada.
 
-### Tipos de decorators
+## Tipos de decorators
 
 Ao se desenvolver *decorators* é importante saber que existem vários tipos,
 esses tipos são determinados pelo alvo em que está sendo aplicado, sendo que
@@ -104,7 +104,7 @@ tipos existentes são:
 1.  Accessor Decorator.
 1.  Parameter Decorator.
 
-#### Class Decorator
+### Class Decorator
 
 A maneira mais simples de se começar a entender os *decorators* é começar
 desenvolvendo para classes. Um *decorator* para classe deve ser declarado antes
@@ -148,7 +148,7 @@ Você perceberá no decorrer do aprendizado, que esse tipo de *decorator* é o m
 generalista, pois nele você pode ter acesso à classe inteira, ao invés de
 pequenas partes do objeto.
 
-#### Property Decorator
+### Property Decorator
 
 Um *decorator* de propriedade deve ser declarado antes da declaração da
 propriedade. Dessa vez, o *decorator*, recebe 2 parâmetros, `target` e `key`. O
@@ -233,7 +233,7 @@ fazer um `console.log` toda vez que a propriedade tiver seu valor alterado ou
 for acessada. Para saber o que acontece na propriedade, utilizamos os `getters`
 e `setters` do próprio JavaScript.
 
-#### Method Decorator
+### Method Decorator
 
 Para muitos esse é o tipo de *decorator* mais útil oferecido pelo TypeScript. Um
 *decorator* para métodos deve ser declarado antes da declaração do método. Ao se
@@ -306,7 +306,7 @@ Esse tipo de *decorator* é extremamente útil quando queremos aplicar mudanças
 comportamento dos nossos métodos e como temos acesso a quase tudo que representa
 o método, se torna muito simples aplicarmos as mudanças que queremos.
 
-#### Accessor Decorator
+### Accessor Decorator
 
 Os accessor *decoratos* são os mesmos que os *method decorators*, mas são
 aplicados aos métodos *setter* ou *getter*.
@@ -385,7 +385,7 @@ for (let key in user) {
 //  error TS1207: Decorators cannot be applied to multiple get/set accessors of the same name.
 ```
 
-#### Parameter Decorator
+### Parameter Decorator
 
 Por último, mas não menos importante, temos os *parameter decorators*. Um
 *parameter decorator* deve ser declarado antes da declaração de um parâmetro.
@@ -426,7 +426,7 @@ requer o uso do
 [reflect-metadata](https://www.typescriptlang.org/docs/handbook/decorators.html#metadata)
 (que é um assunto para outro post).
 
-### Quando usar
+## Quando usar
 
 É comum quando estamos aprendendo algo novo entendermos como algo funciona mas
 dificilmente conseguiremos enxergar cenários para aquele aprendizado. Para
