@@ -65,6 +65,6 @@ tag = "tags"
     lineNoStart = 1
     lineNos = true
     lineNumbersInTable = true
-    noClasses = false
+    noClasses = true
     style = "github"
     tabWidth = 4
