@@ -13,7 +13,7 @@ Uma [pesquisa](https://blog.risingstack.com/node-js-developer-survey-results-201
 
 Sabemos que é muito fácil utilizar o `console.log()` em nossos códigos, porém em alguns casos é necessário realizar algumas adaptações no _debug_ para que seja possível fazer a analise corretamente, isso devido a nossa necessidade ser diferente do propósito do método. O que muitos talvez não saibam é que a própria [_API_ do _console_](https://console.spec.whatwg.org/) oferece uma variedade de outros métodos que podem ajudar de forma mais eficiente a resolver os problemas que estamos enfrentando.
 
-### Log simples
+## Log simples
 
 Sabemos que o que o método `console.log()` mais resolve são _logs_ simples, mas até mesmo os _logs_ simples podem ter algumas pequenas particularidades. Imagine uma situação onde você precise mostrar mensagens de alerta e erro. Claramente as mensagens de alerta são mais criteriosas que mensagens comuns e mensagens de erros mais criteriosas que a de alerta. Devido a criticidade desses tipos de mensagens, precisamos de um destaque maior para elas. Para ajudar nessa situação temos 2 métodos: `console.warn()` e `console.error()` .
 
@@ -29,7 +29,7 @@ Caso o primeiro argumento contenha `%c` o segundo argumento aceita propriedades 
 
 ![](./images/console-log-printf-with-css.png)
 
-### Listar valores de listas ou objetos
+## Listar valores de listas ou objetos
 
 É impossível programar em JavaScript e não utilizar listas ou objetos. _Debugar_ essas estruturas de dados pode ser um pouco desagradável, dependendo do que é necessário. Em estruturas grandes, você encontrar valores utilizando o `console.log()` pode ser um pouco trabalhoso, isso quando não precisa ordená-los para facilitar a visualização. Na maioria dos casos, será necessário uma adaptação no código para facilitar o _debug_.
 
@@ -43,7 +43,7 @@ O método sempre tentará encontrar um _index_ que represente cada item da estru
 
 ![](./images/console-table-with-object.png)
 
-### Contagem
+## Contagem
 
 Fazer a contagem de algum trecho do código pode ser extremamente necessário, seja de uma iteração, resultado de evento ou invocação de método. É bem provável que você opte por incrementar uma variável e ficar fazendo _log_ dela a cada momento necessário, porém pode ser necessário fazer alguma adaptação no código para que isso seja possível no momento em que você está desenvolvendo. Mas por que não utilizar algo nativo que facilite esse _debug_?
 
@@ -55,7 +55,7 @@ Também pode ser necessário reiniciar essa contagem em algum momento do nosso _
 
 ![](./images/console-count-with-countReset.png)
 
-### Agrupamento de log’s
+## Agrupamento de log’s
 
 Em métodos muito grandes pode ser um pouco complexo _debugar_ utilizando o _console_ caso seja necessário demonstrar várias informações diferentes. Muitas vezes optamos por colocar prefixos que nos ajudem a identificar o grupo em que a informação pertence. De qualquer maneira o nosso objetivo é tornar õ processo de _debug_ mais simples e apresentar a informação de uma forma mais agradável.
 
@@ -67,7 +67,7 @@ No exemplo, foi utilizado novamente a biblioteca [_Faker.js_](https://github.com
 
 ![](./images/console-groupCollapsed.png)
 
-### Tempo de execução
+## Tempo de execução
 
 Quando estamos com problemas de performance em nossa aplicação a primeira coisa que fazemos é tentar descobrir qual trecho está causando problemas. Para isso, precisamos descobrir quanto tempo nossos trechos de código estão levando para serem executados. Obviamente esse não é o único caso em que é necessário descobrir o tempo de execução de um trecho, mas com certeza é um dos mais frequentes. Como todas as outras necessidades já apresentadas, essa também tem muitas maneiras de solucionar. Você pode comparar datas ou até mesmo analisar visualmente os log’s simples e ver quanto tempo cada um demora para aparecer. Para tentar facilitar a nossa vida e evitar adaptações malucas em nossos códigos a _API_ do _console_ também oferece alguns métodos que podem nos ajudar.
 
@@ -79,7 +79,7 @@ Mas dependendo da situação pode ser necessário saber durante o trecho do cód
 
 ![](./images/console-timeLog.png)
 
-### Nem só de console vive o homem
+## Nem só de console vive o homem
 
 Mesmo não tendo apresentado todos os métodos presentes na _API_ do _console_, é possível concluir que ainda sim é uma _API_ fantástica e nos oferece muitos métodos que podem facilitar nossas vidas em determinadas situações, porém isso não quer dizer que ela irá resolver todos os seus problemas sempre ou que substitui uma boa ferramenta de _debug_. Cada caso é um caso, mas é inevitável a necessidade de se conhecer novas ferramentas, pois só assim você irá descobrir qual facilita mais a sua vida e te ajuda a resolver os problemas mais facilmente.
 
