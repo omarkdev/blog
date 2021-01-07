@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://epic-shockley-5c7245.netlify.app/"
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
