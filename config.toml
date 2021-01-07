@@ -1,6 +1,6 @@
 baseURL = "https://omark.dev/"
 languageCode = "en"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "pt-BR"
 enableInlineShortcodes = true
 enableEmoji = true
 # pagination = 10
@@ -17,7 +17,7 @@ googleAnalytics = ""
   enableMathJax = false # enable it in Front Matter
   enableReadingTime = true
   favicon = "favicon.ico"
-  startyear = "2019"
+  startyear = "2018"
   showmonth = true
   slogan = ""
   description = "Personal blog"
