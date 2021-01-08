@@ -4,7 +4,7 @@ date: 2020-03-19T12:22:30.419Z
 draft: false
 ---
 
-![](./images/decorators.jpeg)
+![](/uploads/2020/03/19/decorators.jpeg)
 
 Os *decorators* são um dos recursos mais poderosos oferecido pelo TypeScript,
 tendo como um dos principais objetivos ampliar funcionalidades de classes e

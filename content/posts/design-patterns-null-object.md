@@ -5,7 +5,7 @@ date: 2020-04-14T14:49:48.342Z
 draft: false
 ---
 
-![](./images/empty-glass.jpeg)
+![](/uploads/2020/04/14/empty-glass.jpeg)
 
 É muito comum criarmos métodos que possam retornar valores nulos em determinadas
 situações onde a informação requisitada não está presente ou algumas condições
@@ -133,7 +133,7 @@ Podemos ver que para a nossa necessidade a possibilidade de se obter nulo é um
 efeito colateral desnecessário e problemático. Para solucionar isso podemos ter
 a seguinte solução:
 
-![](./images/uml-logger.jpeg)
+![](/uploads/2020/04/14/uml-logger.jpeg)
 
 Analisando o nosso exemplo, deduzimos e comparamos com o exemplo anterior o
 seguinte:

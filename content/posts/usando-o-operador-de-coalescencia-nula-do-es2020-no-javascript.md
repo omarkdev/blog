@@ -5,7 +5,7 @@ date: 2020-03-10T12:30:51.333Z
 draft: false
 ---
 
-![](./images/question-mark.jpeg)
+![](/uploads/2020/03/10/question-mark.jpeg)
 
 Foi introduzido um novo operador para gerenciar valores indefinidos ou nulos no
 ECMAScript 2020. A sintaxe do novo operador são dois pontos de interrogação

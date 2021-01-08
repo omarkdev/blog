@@ -5,7 +5,7 @@ date: 2020-03-24T11:58:20.718Z
 draft: false
 ---
 
-![](./images/php-reflection.png)
+![](/uploads/2020/03/24/php-reflection.png)
 
 São inúmeras linguagens de programação que disponibiliza mecanismos para se
 fazer reflexão em estruturas de dados, no PHP isso também não seria diferente.

@@ -30,7 +30,7 @@ que retorna um inteiro. Este inteiro, então, é utilizado como índice para um
 array “normal”, já que em C não conseguimos colocar strings como chave de
 arrays. A estrutura seria algo parecido com isso:
 
-![Exemplo de HashTable no PHP](./images/example-hashtable-php.png)
+![Exemplo de HashTable no PHP](/uploads/2018/05/20/example-hashtable-php.png)
 
 Neste exemplo, queremos alocar um valor em nosso array com a chave **foo**, essa
 chave passa pela função **hash** que retorna o inteiro **1**, que será o índice
@@ -51,7 +51,7 @@ encadeada são chamados de **Buckets**.
 
 A estrutura de Buckets do HashTable é semelhante a isso:
 
-![Exemplo de HashTable com Bucket’s no PHP](./images/example-hashtable-with-buckets-in-php.png)
+![Exemplo de HashTable com Bucket’s no PHP](/uploads/2018/05/20/example-hashtable-with-buckets-in-php.png)
 
 Neste exemplo, ao inserirmos um valor com a chave **bar** a função **hash** 
 retornou o mesmo inteiro da chave **foo** então os elementos foram adicionados

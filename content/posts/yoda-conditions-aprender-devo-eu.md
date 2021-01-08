@@ -4,7 +4,7 @@ date: 2018-07-26T17:53:50.741Z
 draft: false
 ---
 
-![Yoda learning grammar](./images/yoda-learning-grammar.jpeg)
+![Yoda learning grammar](/uploads/2018/07/26/yoda-learning-grammar.jpeg)
 
 Provavelmente em algum momento do tempo em que você passou programando, você fez
 uma atribuição de uma variável dentro de um `if` que não era para existir,

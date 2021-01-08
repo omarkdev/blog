@@ -4,7 +4,7 @@ date: 2020-03-31T12:07:07.935Z
 draft: false
 ---
 
-![](./images/reading-journal-in-fire.jpeg)
+![](/uploads/2020/03/31/reading-journal-in-fire.jpeg)
 
 Faz um certo tempo que o ECMAScript 2019 foi lançado, mas pouco se vê falar ou
 utilizar as funcionalidades trazidas pela edição. Várias das novas

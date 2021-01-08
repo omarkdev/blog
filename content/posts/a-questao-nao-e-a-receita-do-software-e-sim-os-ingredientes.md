@@ -5,7 +5,7 @@ date: '2020-04-02T12:13:40.414Z'
 draft: false
 ---
 
-![](./images/paper.jpeg)
+![](/uploads/2020/04/02/paper.jpeg)
 
 É bem provável que quando você começou a estudar programação, seja em uma faculdade, curso online ou pedindo ajuda para alguém, a pessoa responsável por ensinar provavelmente te disse “Programar é como uma receita de bolo, instruções contidas em uma receita”. Se pegarmos a definição de Dasgupta, Papadimitriou e Vazirani, sobre algoritmos, onde diz “algoritmos são procedimentos precisos, não ambíguos, mecânicos, eficientes e corretos”, reforçamos ainda mais essa ideia de estarmos criando sempre receitas.
 

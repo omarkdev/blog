@@ -3,7 +3,7 @@ title: "Como eu consegui um trabalho home office"
 date: '2019-01-14T19:13:54.056Z'
 ---
 
-![](./images/road-cover.jpeg)
+![](/uploads/2019/01/14/road-cover.jpeg)
 
 Um relato sobre os aprendizados que tive para se conseguir um trabalho home office e que talvez te ajude a conseguir um.
 
@@ -13,7 +13,7 @@ Antes de começar a trabalhar home office, eu trabalhava presencial em uma empre
 
 O passo inicial que tomei, acredito que seja o que muitos fazem quando querem trocar de emprego, foi realizar uma busca simples no google e ver o que eu encontrava de vagas, porém, a maioria dos resultados levava a sites que divulgavam vagas:
 
-![](./images/search-vagas-home-office-in-google.png)
+![](/uploads/2019/01/14/search-vagas-home-office-in-google.png)
 
 Comecei a olhar a maioria dos sites que a pesquisa me trouxe, para ver quais os requisitos das vagas, de onde eram as empresas, fazer um overview para ter uma noção do que eu iria precisar. Analisando os sites, pude perceber que alguns divulgavam vagas remotas do exterior, nisso veio a primeira questão a ser resolvida:
 
@@ -71,7 +71,7 @@ Nunca gostei muito do LinkedIn, mas tinha meu perfil lá e para todos que eu fal
 
 Entrando no LinkedIn dei uma atualizada no perfil e encontrei uma funcionalidade que eu desconhecia, o _Interesses de carreira_, que basicamente você preenche o que você procura em relação a trabalho e consegue ativar seu perfil como interessado em novas oportunidades, imediatamente, ativei.
 
-![](./images/linkedin-interesse-em-carreira.png)
+![](/uploads/2019/01/14/linkedin-interesse-em-carreira.png)
 
 Após isso, comecei a pesquisar vagas que me interessavam, utilizando coisas como: “_php remote_”, “_javasript remote_” e coisas assim.
 
@@ -81,7 +81,7 @@ Até esse ponto, eu tinha conseguido algumas entrevistas, porém já notei uma p
 
 ## O open source também ajuda
 
-![](./images/screenshot-remote-jobs-brazil.png)
+![](/uploads/2019/01/14/screenshot-remote-jobs-brazil.png)
 
 A muito tempo atrás eu tinha encontrado o repositório [_remote-jobs-brazil_](https://github.com/lerrua/remote-jobs-brazil) que tinha uma grande lista de empresas que trabalhavam remoto e empregava brasileiros. Quando lembrei desse repositório, acessei para ver as empresas que tinham, como meu foco era empresas do exterior fui no segundo tópico _“Worldwide companies that hire brazilians to work remotely_”.
 

@@ -5,7 +5,7 @@ date: '2020-04-07T11:57:06.218Z'
 draft: false
 ---
 
-![](./images/console-log-text.jpeg)
+![](/uploads/2020/04/07/console-log-text.jpeg)
 
 Toda pessoa que já passou pela necessidade de _debugar_ algum código em JavaScript com certeza em algum momento teve que usar o famoso `console.log()`. Muitos de nós ainda utiliza esse método até os dias de hoje, mesmo que alguns não gostem de admitir.
 
@@ -17,17 +17,17 @@ Sabemos que é muito fácil utilizar o `console.log()` em nossos códigos, poré
 
 Sabemos que o que o método `console.log()` mais resolve são _logs_ simples, mas até mesmo os _logs_ simples podem ter algumas pequenas particularidades. Imagine uma situação onde você precise mostrar mensagens de alerta e erro. Claramente as mensagens de alerta são mais criteriosas que mensagens comuns e mensagens de erros mais criteriosas que a de alerta. Devido a criticidade desses tipos de mensagens, precisamos de um destaque maior para elas. Para ajudar nessa situação temos 2 métodos: `console.warn()` e `console.error()` .
 
-![](./images/console-log-warn-error-info-simple.png)
+![](/uploads/2020/04/07/console-log-warn-error-info-simple.png)
 
 Podemos ver no exemplo que o método `warn()` produz uma mensagem com o estilo de alerta e já o `error()` uma mensagem com estilo de erro. O exemplo também nos apresenta um método novo `console.info()`, esse método no _Chrome_ tem exatamente o mesmo resultado que o nosso já conhecido `console.log()`.
 
 Mas você não precisa necessariamente ficar preso apenas no estilo já proposto pela plataforma utilizada. Os métodos de _log_ simples seguem o [formato de estilo _printf_](https://en.wikipedia.org/wiki/Printf_format_string), caso a primeira string siga esse formato. Dessa maneira é possível fazer algumas mudanças em como nossa mensagem é apresentada, seja em sua cor ou como chamamos o método.
 
-![](./images/console-log-printf-style.png)
+![](/uploads/2020/04/07/console-log-printf-style.png)
 
 Caso o primeiro argumento contenha `%c` o segundo argumento aceita propriedades CSS. Com essa possibilidade até mesmo o nosso queridíssimo `console.log()` pode se tornar mais elegante, se necessário.
 
-![](./images/console-log-printf-with-css.png)
+![](/uploads/2020/04/07/console-log-printf-with-css.png)
 
 ## Listar valores de listas ou objetos
 
@@ -35,13 +35,13 @@ Caso o primeiro argumento contenha `%c` o segundo argumento aceita propriedades 
 
 Para tornar a visualização desses dados mais fácil a _API_ do _console_ nos oferece um método chamado `console.table()` que tem como objetivo montar uma tabela com os dados apresentados. O primeiro parâmetro é a estrutura de dados que você quer apresentar. Essa estrutura não precisa ser necessariamente um _array_.
 
-![](./images/console-table.png)
+![](/uploads/2020/04/07/console-table.png)
 
 No exemplo foi utilizado a biblioteca [Faker.js](https://github.com/marak/Faker.js/) para criar uma estrutura com dados falsos. Podemos ver que essa estrutura fica visivelmente muito mais simples. Neste caso, a estrutura é um _array_ de objetos, mas qualquer tipo de estrutura de dados é permitido.
 
 O método sempre tentará encontrar um _index_ que represente cada item da estrutura. No caso de um _array_ é o _index_ do item dentro da lista, já em objetos é o nome da propriedade, formando assim uma tabela de chave valor.
 
-![](./images/console-table-with-object.png)
+![](/uploads/2020/04/07/console-table-with-object.png)
 
 ## Contagem
 
@@ -49,11 +49,11 @@ Fazer a contagem de algum trecho do código pode ser extremamente necessário, s
 
 O método `console.count()` nos auxilia a realizar essas contagens de forma muito mais simples. O primeiro argumento do método (que é opcional) é uma descrição que identifica o que está sendo contado, caso o método seja chamado com a mesma descrição, sua contagem é incrementada e apresentada na tela.
 
-![](./images/console-count.png)
+![](/uploads/2020/04/07/console-count.png)
 
 Também pode ser necessário reiniciar essa contagem em algum momento do nosso _debug_ e para esse problema também temos uma solução. O método `console.countReset()` realiza essa reinicialização na contagem. Para identificar a contagem a ser reinicializada basta informar a descrição no primeiro parâmetro, da mesma maneira que o `console.count()` funciona.
 
-![](./images/console-count-with-countReset.png)
+![](/uploads/2020/04/07/console-count-with-countReset.png)
 
 ## Agrupamento de log’s
 
@@ -61,11 +61,11 @@ Em métodos muito grandes pode ser um pouco complexo _debugar_ utilizando o _con
 
 Para nos ajudar, a _API_ do _console_ oferece o método `console.group()` que tem como objetivo agrupar os _logs_. Esse método deve ser usado em conjunto com o nosso já conhecido `console.log()`. Para se utilizar, primeiro chamamos o método `console.group()` que recebe como parâmetro a descrição do grupo, que seria como uma identificação e todos os _logs_ que vierem após isso, entrarão nesse grupo. O mais interessante é que você pode ter mais grupos dentro de grupos, bastando apenas defini-los sequencialmente. Após fazer o _log_ de todas informações necessárias daquele grupo, é preciso chamar o método `console.groupEnd()` para informar que o último grupo foi finalizado, dessa maneira todos os _logs_ posteriores não vão mais pertencer à aquele grupo.
 
-![](./images/console-group.png)
+![](/uploads/2020/04/07/console-group.png)
 
 No exemplo, foi utilizado novamente a biblioteca [_Faker.js_](https://github.com/marak/Faker.js/) para poder ilustrar melhor as informações. É possível ver no resultado o agrupamento das informações além de ser possível esconder ou mostrar o conteúdo do grupo. Caso você queira que o _log_ de um grupo comece com seu conteúdo escondido, basta utilizar o método `console.groupCollapsed()`.
 
-![](./images/console-groupCollapsed.png)
+![](/uploads/2020/04/07/console-groupCollapsed.png)
 
 ## Tempo de execução
 
@@ -73,11 +73,11 @@ Quando estamos com problemas de performance em nossa aplicação a primeira cois
 
 Os métodos necessários para se medir o tempo de execução de um trecho de código são `console.time()` e `console.timeEnd()`. Ambos os métodos recebem como primeiro parâmetro a descrição do que está sendo medido, essa descrição serve como um identificador, dessa maneira é possível fazer várias medições em vários trechos de código junto. O método `console.time()` deve ser chamado no início do trecho a ser analisado e o `console.timeEnd()` no final. O tempo de execução será apresentado apenas após o método `console.timeEnd()` for invocado.
 
-![](./images/console-time-timeEnd.png)
+![](/uploads/2020/04/07/console-time-timeEnd.png)
 
 Mas dependendo da situação pode ser necessário saber durante o trecho do código quanto tempo já se passou e isso também é possível com a fantástica _API_ do _console_. O método `console.timeLog()` faz um log simples durante a execução do código, diferente do `console.timeEnd()` que faz apenas no final. Igual aos outros métodos, esse método espera no primeiro parâmetro a descrição do que está sendo medido.
 
-![](./images/console-timeLog.png)
+![](/uploads/2020/04/07/console-timeLog.png)
 
 ## Nem só de console vive o homem
 

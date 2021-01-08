@@ -4,7 +4,7 @@ date: 2019-02-25T12:15:42.323Z
 draft: false
 ---
 
-![](./images/conference-room.png)
+![](/uploads/2019/02/25/conference-room.png)
 
 Cada vez é mais comum vermos novas comunidades ou eventos surgindo, tanto no
 interior, quanto em capitais e isso é ótimo, pois traz oportunidades de
