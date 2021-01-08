@@ -16,7 +16,7 @@
     </a>
     {{ end }}
     {{ if .Site.Social.twitter }}
-    <a href="{{ .Site.Social.twitter }}" target="_blank">
+    <a href="https://twitter.com/@{{ .Site.Social.twitter }}" target="_blank">
       <i title="Twitter" class="fab fa-twitter"></i>
     </a>
     {{ end }}
@@ -31,7 +31,7 @@
     </a>
     {{ end }}
   </nav>
-  
+
   {{ with .Site.Params.description }}
   <div class="hidden description">{{ safeHTML . }}</div>
   {{ end }}
