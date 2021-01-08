@@ -10,6 +10,9 @@
     {{- if .Params.favicon }}
     <link rel="icon" href="{{ .Site.Params.favicon }}">
     {{- end }}
+    {{- template "partials/templates/opengraph.html" . }}
+    {{- template "partials/templates/twitter_cards.html" . }}
+    {{- template "partials/templates/schema_json.html" . }}
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/simpleness.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css">
     <link rel="canonical" href="{{ .Permalink }}">
