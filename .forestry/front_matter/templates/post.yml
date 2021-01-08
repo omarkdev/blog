@@ -31,3 +31,5 @@ fields:
   label: Draft
   default: true
   hidden: true
+pages:
+- content/posts/gerando-senhas-seguras-e-memoraveis.md
