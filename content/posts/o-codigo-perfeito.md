@@ -1,14 +1,10 @@
 ---
-title: "O código perfeito"
-description: >-
-  Inevitavelmente um caminho que será encontrado por quem escreve códigos, em
-  algum momento na carreira, é o da necessidade de escrever…
-date: '2020-03-12T12:18:26.648Z'
-draft: false
+title: O código perfeito
+description: Inevitavelmente um caminho que será encontrado por quem escreve códigos,
+  em algum momento na carreira, é o da necessidade de escrever…
+date: 2020-03-12T12:18:26.648Z
+
 ---
-
-![](/uploads/2020/03/12/rocks.jpeg)
-
 Inevitavelmente um caminho que será encontrado por quem escreve códigos, em algum momento na carreira, é o da necessidade de escrever códigos melhores, pois afinal, queremos sempre resolver os problemas de formas mais simples e eficiente. Após esse caminho ser encontrado, aprendemos o quanto antes a necessidade de sempre nos questionarmos se o que está sendo entregue está dentro do que sabemos e consideramos de boa qualidade.
 
 Com o tempo e com mais aprendizados, acreditamos que fica mais fácil distinguir um código bom do ruim, mas até mesmo o código bom aparenta não estar ideal, ainda não chegou no estado da perfeição idealizado por nós.
