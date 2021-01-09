@@ -1,12 +1,10 @@
 ---
-title: "Usando o operador de coalescência nula do ES2020 no JavaScript"
-description: "Entendendo e utilizando o operador de coalescência nula que foi introduzido no ES2020"
-date: 2020-03-10T12:30:51.333Z
-draft: false
+title: Usando o operador de coalescência nula do ES2020 no JavaScript
+description: Entendendo e utilizando o operador de coalescência nula que foi introduzido
+  no ES2020
+date: 2020-03-10T12:30:51.333+00:00
+
 ---
-
-![](/uploads/2020/03/10/question-mark.jpeg)
-
 Foi introduzido um novo operador para gerenciar valores indefinidos ou nulos no
 ECMAScript 2020. A sintaxe do novo operador são dois pontos de interrogação
 seguidos “`??`”. O operador irá retornar o valor do lado direito quando o valor
@@ -30,9 +28,9 @@ console.log(task);
 
 A similaridade com os outros operador `&&` e `||` é bem grande, mas por que não
 utilizar os operadores antigos? Esses operadores são utilizados para manipular
-valores *truthy* e *falsy*. Os valores *falsy* são: `null`, `undefined`,
-`false`, número 0, `NaN` e `string` vazia. Já os valores *truthy*, são todos os
-outros valores não *falsy*.
+valores _truthy_ e _falsy_. Os valores _falsy_ são: `null`, `undefined`,
+`false`, número 0, `NaN` e `string` vazia. Já os valores _truthy_, são todos os
+outros valores não _falsy_.
 
 A particularidade dos operadores `&&` e `||` algumas vezes pode nos induzir a
 alguns erros. Imagine que um valor `null` ou `undefined` para você é algo que
@@ -50,7 +48,7 @@ console.log(volume);
 ```
 
 Com o operador `||`, o valor da direita é retornado pois o valor da esquerda é
-um valor *falsy*, na qual no nosso caso é um problema. Utilizando o novo
+um valor _falsy_, na qual no nosso caso é um problema. Utilizando o novo
 operador de coalescência nula, fica mais simples essa abordagem.
 
 ```javascript
@@ -64,7 +62,7 @@ console.log(volume);
 ```
 
 E como já foi dito, o valor se preocupa apenas com `undefined` e `null`, todos
-os outros valores *falsy* são considerados como “verdadeiro”.
+os outros valores _falsy_ são considerados como “verdadeiro”.
 
 ```javascript
 console.log(0 ?? 'Awesome'); // 0
