@@ -1,12 +1,9 @@
 ---
-title: "Indo além do console.log"
-description: "O mundo além do simples.log do console"
-date: '2020-04-07T11:57:06.218Z'
-draft: false
+title: Indo além do console.log
+description: O mundo além do simples.log do console
+date: 2020-04-07T11:57:06.218Z
+
 ---
-
-![](/uploads/2020/04/07/console-log-text.jpeg)
-
 Toda pessoa que já passou pela necessidade de _debugar_ algum código em JavaScript com certeza em algum momento teve que usar o famoso `console.log()`. Muitos de nós ainda utiliza esse método até os dias de hoje, mesmo que alguns não gostem de admitir.
 
 Uma [pesquisa](https://blog.risingstack.com/node-js-developer-survey-results-2016/) feita pelo site [Rising Stack](https://risingstack.com/) em 2016 que tinha o objetivo entender como os desenvolvedores utilizam node, concluiu que cerca de ¾ das pessoas utilizam o método `console.log()` para encontrar erros. Mesmo que exista ferramentas que são muito melhores para _debugar_, é inevitável o reconhecimento da facilidade e da quantidade de pessoas que ainda utilizam.
@@ -84,5 +81,3 @@ Mas dependendo da situação pode ser necessário saber durante o trecho do cód
 Mesmo não tendo apresentado todos os métodos presentes na _API_ do _console_, é possível concluir que ainda sim é uma _API_ fantástica e nos oferece muitos métodos que podem facilitar nossas vidas em determinadas situações, porém isso não quer dizer que ela irá resolver todos os seus problemas sempre ou que substitui uma boa ferramenta de _debug_. Cada caso é um caso, mas é inevitável a necessidade de se conhecer novas ferramentas, pois só assim você irá descobrir qual facilita mais a sua vida e te ajuda a resolver os problemas mais facilmente.
 
 Espero que isso te ajude de alguma forma.
-
-
