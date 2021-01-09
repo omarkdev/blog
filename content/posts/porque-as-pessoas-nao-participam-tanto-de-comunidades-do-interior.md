@@ -1,11 +1,8 @@
 ---
-title: "Porquê as pessoas não participam tanto de comunidades do interior"
-date: 2019-02-25T12:15:42.323Z
-draft: false
+title: Porquê as pessoas não participam tanto de comunidades do interior
+date: 2019-02-25T12:15:42.323+00:00
+
 ---
-
-![](/uploads/2019/02/25/conference-room.png)
-
 Cada vez é mais comum vermos novas comunidades ou eventos surgindo, tanto no
 interior, quanto em capitais e isso é ótimo, pois traz oportunidades de
 conhecimento para vários lugares. Provavelmente se você é do interior e vive em
@@ -34,14 +31,14 @@ A explicação simples do termo é que o brasileiro gosta de falar mal de si e
 valorizar tudo que vem de fora, como se não tivéssemos a capacidade de fazer
 algo bom.
 
-> *“Por “complexo de vira-latas” entendo eu a inferioridade em que o brasileiro se
+> _“Por “complexo de vira-latas” entendo eu a inferioridade em que o brasileiro se
 > coloca, voluntariamente, em face do resto do mundo. Isto em todos os setores e,
-sobretudo, no futebol.” — Nelson Rodrigues.*
+> sobretudo, no futebol.” — Nelson Rodrigues._
 
 Cada vez mais comum se torna ouvir falar desse termo, bem provável que tenhamos
 escutado isso referindo se a o que os brasileiros acham de si mesmo comparados
 com outros países. Recomendo sobre o assunto você assistir um vídeo de um
-*gringo* falando sobre esse assunto (talvez você ache que tenha mais
+_gringo_ falando sobre esse assunto (talvez você ache que tenha mais
 relevância?!)
 
 Porém, penso que esse assunto não se limita apenas ao brasileiro com o exterior,
@@ -65,7 +62,7 @@ problemático, se a pessoa da mesma realidade que a minha não consegue, por cau
 da nossa realidade, eu também não consigo.
 
 O problema não está em pagar R$ 1.800,00 em um ingresso, ou se deslocar para ir
-em um evento em outra cidade, ou achar *foda* uma comunidade de outra cidade,
+em um evento em outra cidade, ou achar _foda_ uma comunidade de outra cidade,
 problema é criticar a comunidade local ou seus membros simplesmente pelo local.
 
 ## Mas tudo isso muda quando quem fala é de outra comunidade
@@ -110,7 +107,7 @@ prejudicial com o meio em que vivemos, nivelando por baixo.
 
 ## Tem pessoas muito foda próximo de você
 
-É bem provável que você já tenha ouvido “*façam networking*” em eventos da área.
+É bem provável que você já tenha ouvido “_façam networking_” em eventos da área.
 Isso meio que se tornou cultural em nossa área, mas para você fazer networking,
 você não necessariamente precisa ir para um evento grande, também tem pessoas
 próximas a você que são fodas!.
