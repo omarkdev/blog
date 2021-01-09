@@ -1,11 +1,8 @@
 ---
-title: "Novas funcionalidade do JavaScript em ES2019 (ES10)"
-date: 2020-03-31T12:07:07.935Z
-draft: false
+title: Novas funcionalidade do JavaScript em ES2019 (ES10)
+date: 2020-03-31T12:07:07.935+00:00
+
 ---
-
-![](/uploads/2020/03/31/reading-journal-in-fire.jpeg)
-
 Faz um certo tempo que o ECMAScript 2019 foi lançado, mas pouco se vê falar ou
 utilizar as funcionalidades trazidas pela edição. Várias das novas
 funcionalidades podem ajudar muito no seu dia-a-dia em coisas que antes você
@@ -73,7 +70,7 @@ seria como chamar o `flat` sem parâmetros ou informando o valor 1.
 ## Object.fromEntries()
 
 A função cria um novo objeto a partir de um
-*[iterable](https://alligator.io/js/iterables/)* que tenha pares chave-valor.
+[_iterable_](https://alligator.io/js/iterables/) que tenha pares chave-valor.
 
 ``` javascript
 const entries = [ ['name', 'Marcos'], ['site', 'omark.dev'], ['twitter', '@omarkdev'] ];
@@ -182,8 +179,7 @@ A Sintaxe do JSON é definido pelo
 [ECMA-404](http://www.ecma-international.org/publications/standards/Ecma-404.htm)
 e permanentemente corrigida pela
 [RFC-7159](https://tools.ietf.org/html/rfc7159), permitindo que o separador de
-linha (\u2028) e o separador de parágrafo (\u2029) possam ser exibidos
+linha (\\u2028) e o separador de parágrafo (\\u2029) possam ser exibidos
 corretamente sem disparar um erro.
 
 Espero que isso te ajude de alguma forma.
-
