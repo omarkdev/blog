@@ -1,23 +1,20 @@
 ---
-title: "A questão não é a receita do software e sim os ingredientes"
-description: "Programar não é escrever uma receita de bolo?"
-date: '2020-04-02T12:13:40.414Z'
-draft: false
+title: A questão não é a receita do software e sim os ingredientes
+description: Programar não é escrever uma receita de bolo?
+date: 2020-04-02T12:13:40.414Z
+
 ---
-
-![](/uploads/2020/04/02/paper.jpeg)
-
 É bem provável que quando você começou a estudar programação, seja em uma faculdade, curso online ou pedindo ajuda para alguém, a pessoa responsável por ensinar provavelmente te disse “Programar é como uma receita de bolo, instruções contidas em uma receita”. Se pegarmos a definição de Dasgupta, Papadimitriou e Vazirani, sobre algoritmos, onde diz “algoritmos são procedimentos precisos, não ambíguos, mecânicos, eficientes e corretos”, reforçamos ainda mais essa ideia de estarmos criando sempre receitas.
 
 Vamos imaginar que passamos o dia todo criando CRUD’s em nossa API, basta seguirmos a nossa receita, não é? Afinal, fazer a operação de atualização de um valor é a mesma, certo?
 
-1.  _Crie a rota para que irá atualizar os dados;_
-2.  _Adicione a verificação de usuário está autenticado;_
-3.  _Valide os dados recebidos na requisição;_
-4.  _Busque o registro baseado no valor recebido;_
-5.  _Dispare uma exceção caso não encontre nenhum registro;_
-6.  _Atualize os valores no banco;_
-7.  _Retorne para o usuário que a operação foi concluída com sucesso_.
+1. _Crie a rota para que irá atualizar os dados;_
+2. _Adicione a verificação de usuário está autenticado;_
+3. _Valide os dados recebidos na requisição;_
+4. _Busque o registro baseado no valor recebido;_
+5. _Dispare uma exceção caso não encontre nenhum registro;_
+6. _Atualize os valores no banco;_
+7. _Retorne para o usuário que a operação foi concluída com sucesso_.
 
 Graças a receita de 7 passos, podemos construir quase qualquer operação de atualização de um CRUD. Isso não é necessariamente um problema, pois mesmo que você procure outras maneiras de fazer isso, no final sempre irá parecer uma receita. Mesmo este processo sendo o mesmo para a maioria dos casos de CRUD, muitos podem se frustar por sempre estarem seguindo a mesma receita, outros podem até dizer “eu não estou aprendendo nada com isso”.
 
@@ -40,4 +37,3 @@ Entender e saber utilizar uma ferramenta vai muito além de ler a documentação
 Basicamente nossa profissão é resolver problemas com tecnologia, então quando você entende o porque e como utilizar aquele ingrediente para aquele problema, você começa a se tornar um profissional melhor e pronto para resolver mais problemas.
 
 Espero que isso te ajude de alguma forma.
-
