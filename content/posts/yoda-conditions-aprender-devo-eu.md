@@ -1,11 +1,8 @@
 ---
-title: "Yoda Conditions — Aprender devo eu?"
-date: 2018-07-26T17:53:50.741Z
-draft: false
+title: Yoda Conditions — Aprender devo eu?
+date: 2018-07-26T17:53:50.741+00:00
+
 ---
-
-![Yoda learning grammar](/uploads/2018/07/26/yoda-learning-grammar.jpeg)
-
 Provavelmente em algum momento do tempo em que você passou programando, você fez
 uma atribuição de uma variável dentro de um `if` que não era para existir,
 quando era para ser `name == "Yoda"` mas por algum motivo você esqueceu de
@@ -15,16 +12,16 @@ deve ter sido difícil descobrir o que era, já que nenhum erro foi informado. A
 
 > In [programming](https://en.wikipedia.org/wiki/Computer_programming)
 > [jargon](https://en.wikipedia.org/wiki/Jargon), **Yoda conditions** (also called
-Yoda notation) is a [programming
-style](https://en.wikipedia.org/wiki/Programming_style) where the two parts of
-an expression are reversed from the typical order in a [conditional
-statement](https://en.wikipedia.org/wiki/Conditional_(computer_programming)). A
-Yoda condition places the constant portion of the expression on the left side of
-the conditional statement. The name for this programming style is derived from
-the [Star Wars](https://en.wikipedia.org/wiki/Star_Wars) character named
-[Yoda](https://en.wikipedia.org/wiki/Yoda), who [spoke
-English](https://en.wikipedia.org/wiki/Yoda#Character_overview) in a
-non-standard syntax.
+> Yoda notation) is a [programming
+> style](https://en.wikipedia.org/wiki/Programming_style) where the two parts of
+> an expression are reversed from the typical order in a [conditional
+> statement](https://en.wikipedia.org/wiki/Conditional_(computer_programming)). A
+> Yoda condition places the constant portion of the expression on the left side of
+> the conditional statement. The name for this programming style is derived from
+> the [Star Wars](https://en.wikipedia.org/wiki/Star_Wars) character named
+> [Yoda](https://en.wikipedia.org/wiki/Yoda), who [spoke
+> English](https://en.wikipedia.org/wiki/Yoda#Character_overview) in a
+> non-standard syntax.
 
 A ideia das condições Yoda é que devemos inverter nossas expressões
 condicionais, colocando o operando que não pode ser atribuído do lado esquerdo.
@@ -40,7 +37,6 @@ if (age = 18) {
 
 Sempre irá funcionar, pois atribuição de variável resulta em um valor
 verdadeiro. E se ao invés disso, nós fizermos isso,
-
 
 ```javascript
 if (18 = age) {
@@ -127,12 +123,12 @@ time.
 
 Críticos para esse estilo de programação tem de monte, no meio desses críticos
 temos o **Uncle Bob (Robert C. Martin)**, que é uma personalidade bem forte na
-área de desenvolvimento de software, principalmente em questões de *design de
-software*, *código limpo*, etc. Em seu blog ele diz,
+área de desenvolvimento de software, principalmente em questões de _design de
+software_, _código limpo_, etc. Em seu blog ele diz,
 
 > “I dislike any statement in code that causes the reader to do a double-take.
 > Code that protects the author at the expense of the reader is flawed code.” —
-Uncle Bob
+> Uncle Bob
 
 Talvez faça mais sentido ao invés de adotar esse estilo de programação, você
 adotar um **linter** para seu projeto que pode te avisar sobre atribuições
@@ -204,7 +200,6 @@ Inclusive esses coding standard, dizem para sempre colocarmos a constante ou o
 literal à esquerda, independentemente da expressão.
 
 * [Coding Standard do
-WordPress](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/#yoda-conditions)
+  WordPress](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/#yoda-conditions)
 * [Coding Standard do
-Symfony](https://symfony.com/doc/current/contributing/code/standards.html)
-
+  Symfony](https://symfony.com/doc/current/contributing/code/standards.html)
