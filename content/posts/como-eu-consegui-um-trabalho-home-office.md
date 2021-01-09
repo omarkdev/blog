@@ -1,10 +1,8 @@
 ---
-title: "Como eu consegui um trabalho home office"
-date: '2019-01-14T19:13:54.056Z'
+title: Como eu consegui um trabalho home office
+date: 2019-01-14T19:13:54.056Z
+
 ---
-
-![](/uploads/2019/01/14/road-cover.jpeg)
-
 Um relato sobre os aprendizados que tive para se conseguir um trabalho home office e que talvez te ajude a conseguir um.
 
 ## A decisão de trabalhar home office
@@ -27,10 +25,10 @@ Como pude perceber, é mais fácil você encontrar um site específico para vaga
 
 Começando a busca pelo os sites que tinham vagas do exterior, como não é difícil de se imaginar, a quantidade de resultados é gigantesca, por isso eu resolvi focar na qualidade dos sites e não em quantidade de sites encontrados. Os sites que escolhi, eram sites que tinham muitas vagas e/ou as vagas eram muito no perfil em que procurava. Os escolhidos foram:
 
-*   [reed.co.uk](https://www.reed.co.uk/)
-*   [remotePHP.io](https://remotephp.io/)
-*   [stackoverflow.com/jobs](https://stackoverflow.com/jobs)
-*   [justremote.co](https://justremote.co/)
+* [reed.co.uk](https://www.reed.co.uk/)
+* [remotePHP.io](https://remotephp.io/)
+* [stackoverflow.com/jobs](https://stackoverflow.com/jobs)
+* [justremote.co](https://justremote.co/)
 
 Encontrado esses sites, comecei a pesquisar neles as vagas com tecnologias que me interessavam e claro com o filtro de remoto. Cada vaga que me interessava eu aplicava, afinal o que era de se esperar era pelo menos uma entrevista.
 
@@ -42,11 +40,11 @@ Importante dizer que durante tudo que eu relatar aqui, algumas coisas acontecera
 
 Eu ainda estava aplicando nas vagas que eu encontrava nos sites escolhidos, porém de uma forma que queria gerar quantidade, até que consegui a primeira entrevista e que foi de certa forma um fracasso graças a minha abordagem.
 
-Conversando com o recrutador da empresa, surgiram perguntas até que comum nas entrevistas, como: *sobre minha experiência*, 
-*como eu me comportava em trabalho em equipe*, *quais eram meus defeitos e qualidades*, coisas clichês em entrevistas, até 
-que ele me fez uma pergunta simples mas que mudou todo o rumo da entrevista: “*O que você sabe sobre a empresa?*” e nesse momento 
-eu travei, pois eu **não sabia nada, além do nome da empresa**, respondendo que não consegui pesquisar e não sabia nada, 
-ele respondeu “*Então você não sabe nada sobre nós?*”, então vocês já podem adivinhar que caminho 
+Conversando com o recrutador da empresa, surgiram perguntas até que comum nas entrevistas, como: _sobre minha experiência_,
+_como eu me comportava em trabalho em equipe_, _quais eram meus defeitos e qualidades_, coisas clichês em entrevistas, até
+que ele me fez uma pergunta simples mas que mudou todo o rumo da entrevista: “_O que você sabe sobre a empresa?_” e nesse momento
+eu travei, pois eu **não sabia nada, além do nome da empresa**, respondendo que não consegui pesquisar e não sabia nada,
+ele respondeu “_Então você não sabe nada sobre nós?_”, então vocês já podem adivinhar que caminho
 essa entrevista tomou.
 
 Depois de um certo tempo recebi a resposta dessa empresa e obviamente a resposta era não, porém com a dica, “_Aconselhamos você pesquisar mais sobre as empresas em que deseja trabalhar_”. Isso pode ter sido muito ingênuo da minha parte, mas a partir disso eu comecei a pesquisar sobre todas as empresas que eu aplicava e pesquisava novamente sobre as quais eu tinha uma entrevista agendada.
@@ -57,9 +55,9 @@ Não precisei muito para notar que o processo de aplicar em vagas é algo muito 
 
 Sabendo disso, resolvi pegar o que eu tinha preenchido nas vagas e salvar no Keep, para simplesmente copiar e colar nas próximas vagas. O que anotei:
 
-*   Cover letter
-*   Experience summary
-*   About me
+* Cover letter
+* Experience summary
+* About me
 
 Isso vai lhe poupar muito tempo, pois no meu caso além de eu não falar e escrever inglês nativamente, eu “perdia muito tempo” escrevendo cada um especifico para cada vaga, então tendo um genérico bem feito foi uma ótima solução.
 
@@ -101,8 +99,8 @@ Comecei exatamente da mesma maneira que havia começado antes, seguindo os mesmo
 
 Um bloqueio que eu tinha quando procurava vagas no exterior, era sobre me comunicar bem de forma confiante, então muitas vezes deixei de entrar em contato com alguns sites “não escolhidos” por causa disso, mas agora tudo se tornara mais fácil. Eu já tinha ouvido falar sobre empresas recrutadoras, que fazem um match do seu perfil com perfil de profissional que as empresas procuravam, então também comecei a pesquisar recrutadoras e perguntei indicações para alguns conhecidos. Acabei selecionado, acredito que seja as mais conhecidas:
 
-*   [geekhunter.com.br](https://www.geekhunter.com.br/)
-*   [revelo.com.br](https://www.revelo.com.br/)
+* [geekhunter.com.br](https://www.geekhunter.com.br/)
+* [revelo.com.br](https://www.revelo.com.br/)
 
 O processo com as duas recrutadoras, foi incrível, inclusive fiquei surpreendido com a ligação da Geek Hunter, perguntando qual era o perfil de vagas que eu procurava, conversamos sobre isso e comentei que eu gostaria apenas de vagas home office e se existia hoje vagas assim ali, ela respondeu que não tinham muitas vagas home office, a maioria era presencial, mas que era possível. Infelizmente com as duas recrutadora a maioria das empresas que entraram em contato comigo foi para vagas presenciais, mesmo assim aconselho fortemente vocês entenderem como funciona o processo, pois pode ser bem útil caso estejam procurando vagas.
 
@@ -118,8 +116,8 @@ Enquanto eu procurava vagas nas empresas no repositório [_remotes-jobs-brazil_]
 
 Desse processo todo, consegui aprender algumas coisas bem importantes que com certeza podem te ajudar, alguma dessas coisas podem ser bem contraditórias a maneira em que procurei, então você que irá decidir qual a dose certa para cada decisão.
 
-*   Apenas aplique para as vagas em que você se sentir no mínimo um pouco confortável, mesmo que o incômodo pareça ser tentador para aprendizado pessoal, talvez você deva ir devagar com o quão desconfortável é, pois você pode acabar não levando a lugar nenhum, assim como foi com vagas do exterior no meu caso.
-*   Conheça as empresas em que você irá fazer entrevista, afinal de contas o seu objetivo é trabalhar lá.
-*   Muitas entrevistas podem ser um problema (eu sei que é meio contraditório ao ponto de se aplicar em várias vagas), a maioria dos processos seletivos tem uma etapa em que você irá ter que fazer algo prático com um prazo muito curto, então imagine você com 4 testes práticos para entregar em 7 dias e tendo que consolidar com seu trabalho atual, vida pessoa, etc.
+* Apenas aplique para as vagas em que você se sentir no mínimo um pouco confortável, mesmo que o incômodo pareça ser tentador para aprendizado pessoal, talvez você deva ir devagar com o quão desconfortável é, pois você pode acabar não levando a lugar nenhum, assim como foi com vagas do exterior no meu caso.
+* Conheça as empresas em que você irá fazer entrevista, afinal de contas o seu objetivo é trabalhar lá.
+* Muitas entrevistas podem ser um problema (eu sei que é meio contraditório ao ponto de se aplicar em várias vagas), a maioria dos processos seletivos tem uma etapa em que você irá ter que fazer algo prático com um prazo muito curto, então imagine você com 4 testes práticos para entregar em 7 dias e tendo que consolidar com seu trabalho atual, vida pessoa, etc.
 
 Espero que isso te ajude de alguma forma.
