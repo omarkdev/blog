@@ -4,8 +4,6 @@ description = ""
 title = "Gerando senhas seguras e memoráveis"
 
 +++
-![](/uploads/2021/01/08/jason-dent-3wpjxh-pirw-unsplash.jpg)
-
 Senhas são sempre a primeira linha de defesa contra acessos não autorizados a suas informações, mesmo sabendo disso, ter uma senha forte já é difícil, porém pode ficar mais complicado ainda quando o recomendável é ter uma senha exclusiva para cada site. Qualquer pessoa ficaria impressionada se você conseguisse memorizar uma senha como **5uXqBXQJa*6** para cada site que você tenha uma conta.
 
 Com essa limitação, você pode acabar optando utilizar a mesma senha em todos os lugares, mesmo sabendo que se ela for comprometida, provavelmente toda as outras informações também serão. Mas a partir de agora nosso objetivo é tentar ampliar o nosso leque de senhas, porém com senhas seguras (pois de nada adianta decorarmos várias senhas se elas são fracas).
