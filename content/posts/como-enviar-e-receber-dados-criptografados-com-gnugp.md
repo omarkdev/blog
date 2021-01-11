@@ -13,6 +13,8 @@ O GPG utiliza um método de duas chaves, sendo uma pública e a outra privada. D
 
 Exemplificando, vamos imaginar que você queira me enviar uma mensagem criptografada, para isto você precisa ter a minha chave pública. Tendo a chave, você irá criptografar a mensagem para aquela chave, então, somente eu que tenho a chave privada consigo descriptografar.
 
+![Assymetric Encryption](/uploads/2021/01/11/asymmetric-encryption.png "Assymetric Encryption")
+
 ## Gerando uma chave
 
 Entendendo os conceitos, agora precisamos aplicá-los, o primeiro passo é gerar uma chave utilizando o GPG.
