@@ -100,7 +100,7 @@ final class RegisterUserHandler
 }
 ```
 
-Neste caso temos uma classe responsável por registrar um usuário. Por depender apenas da interface de `UserRepository` no construtor, ao escrever um teste para esta classe, podemos utilizar um `ArrayUserRepository` ao invés de um _repository+_ que faz uma persistência em um banco de dados.
+Neste caso temos uma classe responsável por registrar um usuário. Por depender apenas da interface de `UserRepository` no construtor, ao escrever um teste para esta classe, podemos utilizar um `ArrayUserRepository` ao invés de um _repository_ que faz uma persistência em um banco de dados.
 
 Mesmo que a troca de ORM nunca vá acontecer na vida da sua aplicação, as vantagens da abstração podem ser utilizadas em vários outros cenários para o auxilio.
 
