@@ -30,6 +30,8 @@ Se pegarmos a ideia inicial de pensarmos que os objetos sempre permanecem na mem
 
 
 ```php
+<?php
+
 final class ArrayUserRepository implements UserRepository
 {
     private $users = [];
@@ -59,6 +61,8 @@ Um pensamento que vai se alimentando durante a nossa carreira é o de evitar dup
 É muito provável que se você pesquisar outros posts que falam sobre o Repository Pattern, você encontrará muitos exemplos contendo uma interface genérica para todos os futuros repositories, algo como:
 
 ```php
+<?php
+
  interface Repository {
     public function findAll();
     public function add($target);
@@ -105,6 +109,8 @@ Mesmo que a troca de ORM nunca vá acontecer na vida da sua aplicação, as vant
 Um outro exemplo que pode ser bem real, é a utilização de um Decorator Pattern para cache:
 
 ```php
+<?php
+
 final class CacheUserRepository implements UserRepository
 {
     private $userRepository;
