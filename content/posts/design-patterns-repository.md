@@ -17,36 +17,38 @@ Uma ótima maneira de pensarmos em _Repositories_ é imaginarmos que sua aplica�
 
 Vamos imaginar um cenário onde temos um repository chamado `UserRepository` . Pensando em uma _Collection_, podemos ter funcionalidades como: adicionar um novo usuário à coleção, procurar um usuário pelo email ou removê-lo da coleção. É desta maneira que um repositório deve ser desenhado. Transformando o exemplo em código, podemos ter a seguinte interface:
 
-    <?php
-    
-    interface UserRepository
-    {
-        public function findByEmail(UserEmail $email): ?User;
-        public function add(User $user): void;
-    }
+```php
+<?php
 
+interface UserRepository
+{
+    public function findByEmail(string $email): ?User;
+    public function add(User $user): void;
+}
+```
 Se pegarmos a ideia inicial de pensarmos que os objetos sempre permanecem na memória, podemos ter algo como:
 
-    <?php
-    
-    final class ArrayUserRepository implements UserRepository
+
+```php
+final class ArrayUserRepository implements UserRepository
+{
+    private $users = [];
+
+    public function findByEmail(string $email): ?User
     {
-        private $users = [];
-    
-        public function findByEmail(UserEmail $email): ?User
-        {
-            foreach ($this->users as $user) {
-                if ($user->email === (string) $email) {
-                    return $user;
-                }
+        foreach ($this->users as $user) {
+            if ($user->email === (string) $email) {
+                return $user;
             }
         }
-    
-        public function add(User $user): void
-        {
-            $this->users[] = $user;
-        }
     }
+
+    public function add(User $user): void
+    {
+        $this->users[] = $user;
+    }
+}
+```
 
 Por isso que se começarmos pensando nesta ideia de uma Collection _in-memory_ fica mais fácil visualizar que a implementação técnica não tem nenhuma relevância para quem utiliza o repository, com isso se trocarmos a implementação para algo como `RedisUserRepository`, pouco importa para quem está apenas lidado com `UserRepository`.
 
@@ -56,14 +58,14 @@ Um pensamento que vai se alimentando durante a nossa carreira é o de evitar dup
 
 É muito provável que se você pesquisar outros posts que falam sobre o Repository Pattern, você encontrará muitos exemplos contendo uma interface genérica para todos os futuros repositories, algo como:
 
-    <?php
-    
-    interface Repository {
-        public function findAll();
-        public function add($target);
-        public function remove($target);
-        public function findById($id);
-    }
+```php
+ interface Repository {
+    public function findAll();
+    public function add($target);
+    public function remove($target);
+    public function findById($id);
+}
+```
 
 Logo de cara esse tipo de interface pode parecer que faz sentido, pois que entidade não vai precisar adicionar, remover, ou buscar pelo id? Porém, está errado.
 
@@ -77,22 +79,24 @@ Em uma aplicação orientada à objetos bem desenhada, um conceito muito central
 
 Ao encapsular um repository, iremos lidar apenas com sua interface, o que pode nos trazer uma imensa vantagem na hora de testarmos nosso código. Imagine o seguinte exemplo:
 
-    <?php
+```php
+<?php
     
-    final class RegisterUserHandler
+final class RegisterUserHandler
+{
+    private $userRepository;
+    
+    public function __construct(UserRepository $userRepository)
     {
-        private $userRepository;
-    
-        public function __construct(UserRepository $userRepository)
-        {
-            $this->userRepository = $userRepository;
-        }
-        
-        public function handle(RegisterUser $command)
-        {
-            $this->userRepository->add($command->user());
-        }
+        $this->userRepository = $userRepository;
     }
+        
+    public function handle(RegisterUser $command)
+    {
+        $this->userRepository->add($command->user());
+    }
+}
+```
 
 Neste caso temos uma classe responsável por registrar um usuário. Por depender apenas da interface de `UserRepository` no construtor ao escrever um teste para esta classe, podemos utilizar um `ArrayUserRepository` ao invés de um repository que faz uma persistência em um banco de dados.
 
@@ -100,34 +104,36 @@ Mesmo que a troca de ORM nunca vá acontecer na vida da sua aplicação, as vant
 
 Um outro exemplo que pode ser bem real, é a utilização de um Decorator Pattern para cache:
 
-    final class CacheUserRepository implements UserRepository
+```php
+final class CacheUserRepository implements UserRepository
+{
+    private $userRepository;
+    private $cache;
+    
+    public function __construct(UserRepository $userRepository, \Psr\SimpleCache\CacheInterface $cache)
     {
-        private $userRepository;
-        private $cache;
-    
-        public function __construct(UserRepository $userRepository, \Psr\SimpleCache\CacheInterface $cache)
-        {
-            $this->userRepository = $userRepository;
-            $this->cache = $cache;
-        }
-    
-        public function findByEmail(UserEmail $email): ?User
-        {
-            $cacheKey = 'user-' . (string) $email;
-            if ($this->cache->has($cacheKey)) {
-                return $this->cache->get($cacheKey)
-            }
-            
-            $result = $this->userRepository->findByEmail($email);
-            $this->cache->set($cacheKey, $result);
-            return $result;
-        }
-    
-        public function add(User $user): void
-        {
-            $this->userRepository->add($user);
-        }
+        $this->userRepository = $userRepository;
+        $this->cache = $cache;
     }
+    
+    public function findByEmail(UserEmail $email): ?User
+    {
+        $cacheKey = 'user-' . (string) $email;
+        if ($this->cache->has($cacheKey)) {
+            return $this->cache->get($cacheKey)
+        }
+            
+        $result = $this->userRepository->findByEmail($email);
+        $this->cache->set($cacheKey, $result);
+        return $result;
+    }
+    
+    public function add(User $user): void
+    {
+        $this->userRepository->add($user);
+    }
+}
+```
 
 Desta maneira o cliente ainda fica sem conhecer a nova implementação de cache, pois a interface continua a mesma.
 
