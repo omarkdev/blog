@@ -9,13 +9,11 @@ O padrão de projeto Repository é um dos mais populares no momento. Eu, particu
 
 ## Repository é uma Collection
 
-O jeito mais fácil de entendermos como um Repository funciona é pensarmos nele como uma coleção (Collection) de entidades, desta maneira, sua interface disponibiliza métodos responsáveis para reter e filtrar entidades.
+O jeito mais fácil de entendermos como um _repository_ funciona é pensarmos nele como uma coleção (_collection_) de entidades, desta maneira, sua interface disponibiliza métodos responsáveis para reter e filtrar entidades. Esses métodos não devem ser direcionados a nada técnico, pois um _repository_ não representa nenhuma implementação técnica, como por exemplo: armazenamento em banco de dados ou cache.
 
-Com esta associação feita, é importante também entendermos que um repository não deve representar nenhuma implementação técnica como por exemplo: armazenamento em banco de dados ou cache.
+Uma ótima maneira de pensarmos em _repositories_ é imaginarmos que sua aplicação está sempre em execução e que os objetos sempre permanecem na memória. 
 
-Uma ótima maneira de pensarmos em _Repositories_ é imaginarmos que sua aplicação está sempre em execução e que os objetos sempre permanecem na memória. 
-
-Vamos imaginar um cenário onde temos um repository chamado `UserRepository` . Pensando em uma _Collection_, podemos ter funcionalidades como: adicionar um novo usuário à coleção, procurar um usuário pelo email ou removê-lo da coleção. É desta maneira que um repositório deve ser desenhado. Transformando o exemplo em código, podemos ter a seguinte interface:
+Vamos imaginar um cenário onde temos um _repository_ chamado `UserRepository` . Pensando em uma _collection_, podemos ter funcionalidades como: adicionar um novo usuário à coleção, procurar um usuário pelo email ou removê-lo da coleção. É desta maneira que um repositório deve ser desenhado. Transformando o exemplo em código, podemos ter a seguinte interface:
 
 ```php
 <?php
@@ -26,8 +24,8 @@ interface UserRepository
     public function add(User $user): void;
 }
 ```
-Se pegarmos a ideia inicial de pensarmos que os objetos sempre permanecem na memória, podemos ter algo como:
 
+Se pegarmos a ideia inicial de pensarmos que os objetos sempre permanecem na memória, podemos ter algo como:
 
 ```php
 <?php
@@ -52,13 +50,13 @@ final class ArrayUserRepository implements UserRepository
 }
 ```
 
-Por isso que se começarmos pensando nesta ideia de uma Collection _in-memory_ fica mais fácil visualizar que a implementação técnica não tem nenhuma relevância para quem utiliza o repository, com isso se trocarmos a implementação para algo como `RedisUserRepository`, pouco importa para quem está apenas lidado com `UserRepository`.
+Por isso que se começarmos pensando nesta ideia de uma _collection_ _in-memory_ fica mais fácil visualizar que a implementação técnica não tem nenhuma relevância para quem utiliza o repository, com isso se trocarmos a implementação para algo como `RedisUserRepository`, pouco importa para quem está apenas lidado com `UserRepository`.
 
 ## Repositories genéricos?
 
 Um pensamento que vai se alimentando durante a nossa carreira é o de evitar duplicidade de código, porém muitas vezes é difícil saber se estamos cruzando a linha do _overegineering_ ou se realmente estamos evitando problemas futuros.
 
-É muito provável que se você pesquisar outros posts que falam sobre o Repository Pattern, você encontrará muitos exemplos contendo uma interface genérica para todos os futuros repositories, algo como:
+É muito provável que se você pesquisar outros posts que falam sobre o _Repository Pattern_, você encontrará muitos exemplos contendo uma interface genérica para todos os futuros _repositories_, algo como:
 
 ```php
 <?php
@@ -73,7 +71,7 @@ Um pensamento que vai se alimentando durante a nossa carreira é o de evitar dup
 
 Logo de cara esse tipo de interface pode parecer que faz sentido, pois que entidade não vai precisar adicionar, remover, ou buscar pelo id? Porém, está errado.
 
-Seguir com está ideia, mesmo que possa aparentar fazer muito sentido, demonstra que a pessoa que irá desenhar a interface do repository de uma entidade não teve tempo para considerar como o cliente irá consumir, ou quais os comportamentos que a entidade realmente precisa. Por exemplo, se iremos fazer apenas um CRUD de Usuários, você realmente acha que a busca por `id` será utilizada? Ou que não será necessário ter uma paginação? São perguntas que ao olharmos para uma implementação mais específica começam a tirar o sentido de repositories genéricos.
+Seguir com está ideia, mesmo que possa aparentar fazer muito sentido, demonstra que a pessoa que irá desenhar a interface do _repository_ de uma entidade não teve tempo para considerar como o cliente irá consumir, ou quais os comportamentos que a entidade realmente precisa. Por exemplo, se iremos fazer apenas um CRUD de Usuários, você realmente acha que a busca por `id` será utilizada? Ou que não será necessário ter uma paginação? São perguntas que ao olharmos para uma implementação mais específica começam a tirar o sentido de _repositories_ genéricos.
 
 ## Dificilmente a implementação técnica será alterada
 
@@ -81,7 +79,7 @@ Quando lidamos com abstrações no mundo da orientação à objetos, sempre tem 
 
 Em uma aplicação orientada à objetos bem desenhada, um conceito muito central é o encapsulamento.
 
-Ao encapsular um repository, iremos lidar apenas com sua interface, o que pode nos trazer uma imensa vantagem na hora de testarmos nosso código. Imagine o seguinte exemplo:
+Ao encapsular um _repository_, iremos lidar apenas com sua interface, o que pode nos trazer uma imensa vantagem na hora de testarmos nosso código. Imagine o seguinte exemplo:
 
 ```php
 <?php
@@ -102,11 +100,11 @@ final class RegisterUserHandler
 }
 ```
 
-Neste caso temos uma classe responsável por registrar um usuário. Por depender apenas da interface de `UserRepository` no construtor ao escrever um teste para esta classe, podemos utilizar um `ArrayUserRepository` ao invés de um repository que faz uma persistência em um banco de dados.
+Neste caso temos uma classe responsável por registrar um usuário. Por depender apenas da interface de `UserRepository` no construtor, ao escrever um teste para esta classe, podemos utilizar um `ArrayUserRepository` ao invés de um _repository+_ que faz uma persistência em um banco de dados.
 
 Mesmo que a troca de ORM nunca vá acontecer na vida da sua aplicação, as vantagens da abstração podem ser utilizadas em vários outros cenários para o auxilio.
 
-Um outro exemplo que pode ser bem real, é a utilização de um Decorator Pattern para cache:
+Um outro exemplo que pode ser bem real, é a utilização de um _Decorator Pattern_ para cache:
 
 ```php
 <?php
