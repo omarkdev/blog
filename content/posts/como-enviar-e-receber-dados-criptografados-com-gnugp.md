@@ -7,7 +7,9 @@ title = "Como enviar e receber dados criptografados com GnuGP"
 +++
 Se importar com a segurança de seus dados é um hábito que todos deveríamos cultivar, principalmente quando falamos de trafegar informações sensíveis. Precisamos saber proteger as informações privadas e tentar garantir que esses dados não sejam lidos por pessoas erradas.
 
-Para começarmos a lidar um pouco com essa segurança de dados podemos utilizar o [GNU Privacy Guard (GnuPG ou GPG)](https://www.gnupg.org/), que é uma implementação do OpenGP que nos permite criptografar, descriptografar e assinar dados.
+Podemos começar um passo bem pequeno que pode nos ajudar a começar a adotar este hábito.
+
+O [GNU Privacy Guard (GnuPG ou GPG)](https://www.gnupg.org/) é uma implementação do OpenGP que nos permite criptografar, descriptografar e assinar dados.
 
 O GPG utiliza um método de duas chaves, sendo uma pública e a outra privada. Desta maneira uma pessoa criptografa um dado com uma chave pública e este dado só pode ser descriptografado utilizando a chave privada. Isto se chama [Criptografia assimétrica](https://pt.wikipedia.org/wiki/Criptografia_de_chave_p%C3%BAblica).
 
