@@ -5,15 +5,19 @@ draft = true
 title = "Design Patterns: Repository"
 
 +++
-O padrão de projeto Repository é um dos mais populares no momento. Eu, particularmente, acredito que é uma ótima escolha adotá-lo na maioria dos cenários, pois ao utilizá-lo, conseguimos centralizar a manipulação dos objetos de domínio além de oferecermos uma abstração para a camada de dados.
+O padrão de projeto Repository é um dos mais populares no momento, mesmo que isto soe um pouco estranho, já que a cada padrão deveria ser aplicado apenas em seus casos específicos.
+
+Eu, particularmente, acredito que é um padrão onde é possível aplicar na maioria dos cenários, pois ao utilizá-lo, conseguimos centralizar a manipulação dos objetos de domínio além de oferecermos uma abstração para a camada de dados.
 
 ## Repository é uma Collection
 
 O jeito mais fácil de entendermos como um _repository_ funciona é pensarmos nele como uma coleção (_collection_) de entidades, desta maneira, sua interface disponibiliza métodos responsáveis para reter e filtrar entidades. Esses métodos não devem ser direcionados a nada técnico, pois um _repository_ não representa nenhuma implementação técnica, como por exemplo: armazenamento em banco de dados ou cache.
 
-Uma ótima maneira de pensarmos em _repositories_ é imaginarmos que sua aplicação está sempre em execução e que os objetos sempre permanecem na memória. 
+Uma ótima maneira de pensarmos em _repositories_ é imaginarmos que sua aplicação está sempre em execução e que os objetos sempre permanecem na memória.
 
-Vamos imaginar um cenário onde temos um _repository_ chamado `UserRepository` . Pensando em uma _collection_, podemos ter funcionalidades como: adicionar um novo usuário à coleção, procurar um usuário pelo email ou removê-lo da coleção. É desta maneira que um repositório deve ser desenhado. Transformando o exemplo em código, podemos ter a seguinte interface:
+Vamos imaginar um cenário onde temos um _repository_ chamado `UserRepository` . Pensando em uma _collection_, podemos ter funcionalidades como: adicionar um novo usuário à coleção, procurar um usuário pelo email ou removê-lo da coleção. É desta maneira que um repositório deve ser desenhado. 
+
+Transformando o exemplo em código, podemos ter a seguinte interface:
 
 ```php
 <?php
