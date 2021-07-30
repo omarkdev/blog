@@ -32,6 +32,7 @@ fields:
   default: true
   hidden: true
 pages:
+- content/posts/codigo-legado-e-realmente-ruim.md
 - content/posts/como-enviar-e-receber-dados-criptografados-com-gnugp.md
 - content/posts/design-patterns-repository.md
 - content/posts/gerando-senhas-seguras-e-memoraveis.md
