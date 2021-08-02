@@ -14,7 +14,7 @@ draft: false
 
 **Onde**: Online
 
-Crawlers - Criando aplicações serverless com PHP
+Criando aplicações serverless com PHP
 
 ## Elastic Bauru
 
