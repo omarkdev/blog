@@ -1,6 +1,6 @@
 baseURL = "https://omark.dev/"
 languageCode = "en"
-DefaultContentLanguage = "pt-BR"
+DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 enableEmoji = true
 # pagination = 10
@@ -44,6 +44,10 @@ googleAnalytics = ""
   name = "Sobre"
   url = "/about/"
   weight = 2
+  [[menu.main]]
+  name = "Palestras"
+  url = "/talks/"
+  weight = 3
 
 [social]
   github = "https://github.com/omarkdev"
