@@ -48,6 +48,10 @@ googleAnalytics = ""
   name = "Palestras"
   url = "/talks/"
   weight = 3
+  [[menu.main]]
+  name = "Resume"
+  url = "/resume/"
+  weight = 3
 
 [social]
   github = "https://github.com/omarkdev"
@@ -72,3 +76,6 @@ tag = "tags"
     noClasses = true
     style = "github"
     tabWidth = 4
+
+[markup.goldmark.renderer]
+unsafe = true

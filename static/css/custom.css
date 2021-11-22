@@ -25,3 +25,12 @@ body {
     background: #ffffff;
     box-shadow: none;
 }
+
+.resume-timeline dt,
+.resume-timeline dd {
+  display: inline-block;
+}
+
+.resume-timeline dt {
+  vertical-align: top;
+}
