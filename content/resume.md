@@ -25,7 +25,7 @@ Experience
   <dd>
     <strong>Senior FullStack Developer</strong>
     <br>
-    <i>Vizir</i> 🇧🇷
+    <i>Vizir</i> <span class="flag-resume">🇧🇷</span>
   </dd>
 </dl>
 
@@ -34,7 +34,7 @@ Experience
   <dd>
     <strong>Senior FullStack Developer</strong>
     <br>
-    <i>Seedz</i> 🇧🇷
+    <i>Seedz</i> <span class="flag-resume">🇧🇷</span>
   </dd>
 </dl>
 
@@ -43,7 +43,7 @@ Experience
   <dd>
     <strong>Senior FullStack Developer</strong>
     <br>
-    <i>Crawly</i> 🇧🇷
+    <i>Crawly</i> <span class="flag-resume">🇧🇷</span>
   </dd>
 </dl>
 
@@ -52,7 +52,7 @@ Experience
   <dd>
     <strong>FullStack Developer</strong>
     <br>
-    <i>NeoAssist</i> 🇧🇷
+    <i>NeoAssist</i> <span class="flag-resume">🇧🇷</span>
   </dd>
 </dl>
 
@@ -70,7 +70,7 @@ Experience
   <dd>
     <strong>Trainee</strong>
     <br>
-    <i>Instituto Soma</i> 🇧🇷
+    <i>Instituto Soma</i> <span class="flag-resume">🇧🇷</span>
   </dd>
 </dl>
 
@@ -79,7 +79,7 @@ Experience
   <dd>
     <strong>FullStack Developer Outsourced</strong>
     <br>
-    <i>Wi Propaganda</i> 🇧🇷
+    <i>Wi Propaganda</i> <span class="flag-resume">🇧🇷</span>
   </dd>
 </dl>
 
@@ -88,7 +88,7 @@ Experience
   <dd>
     <strong>FullStack Developer Outsourced</strong>
     <br>
-    <i>Agency Loop</i> 🇧🇷
+    <i>Agency Loop</i> <span class="flag-resume">🇧🇷</span>
   </dd>
 </dl>
 
@@ -97,7 +97,7 @@ Experience
   <dd>
     <strong>WordPress Developer Outsourced</strong>
     <br>
-    <i>Out Paper</i> 🇧🇷
+    <i>Out Paper</i> <span class="flag-resume">🇧🇷</span>
   </dd>
 </dl>
 

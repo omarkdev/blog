@@ -1,0 +1,30 @@
+{{ if and .Site.Params.lazyImage (not .IsHome) -}}
+<script src="{{ .Site.Params.staticPrefix }}{{ "js/lazyload.min.js" | relURL }}"></script>
+<script>
+  var lazyImage = new LazyLoad({
+    container: document.getElementById('article')
+  });
+</script>
+{{ end }}
+
+{{ if eq .Title "Resume" -}}
+<script src="{{ .Site.Params.staticPrefix }}{{ "js/print.min.js" | relURL }}"></script>
+<script>
+  function printResume() {
+    const postMeta = document.querySelector(".post-meta");
+    const flags = document.querySelectorAll(".flag-resume");
+
+    postMeta.style.display = 'none';
+    flags.forEach(e => e.style.display = 'none');
+
+    printJS({
+      printable: 'article',
+      type: 'html',
+      documentTitle: 'Resume',
+    });
+
+    postMeta.style.display = 'block';
+    flags.forEach(e => e.style.display = 'block');
+  }
+</script>
+{{ end }}
