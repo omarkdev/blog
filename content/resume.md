@@ -31,7 +31,7 @@ Experience
 </dl>
 
 <dl class="resume-timeline">
-  <dt><strong>2021 - <small>2022</small></strong></dt>
+  <dt><strong>2021 - 2022</strong></dt>
   <dd>
     <strong>Senior FullStack Developer</strong>
     <br>
