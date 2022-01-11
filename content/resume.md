@@ -20,8 +20,18 @@ a best feature without communication problems.
 Experience
 ----------
 
+
 <dl class="resume-timeline">
-  <dt><strong>2021 - <small>Today</small></strong></dt>
+  <dt><strong>2022 - <small>Today</small></strong></dt>
+  <dd>
+    <strong>Senior FullStack Developer</strong>
+    <br>
+    <i>TourRadar</i> <span class="flag-resume">🇦🇹</span>
+  </dd>
+</dl>
+
+<dl class="resume-timeline">
+  <dt><strong>2021 - <small>2022</small></strong></dt>
   <dd>
     <strong>Senior FullStack Developer</strong>
     <br>
