@@ -1,7 +1,6 @@
 +++
 date = 2022-02-17T23:12:58Z
 description = ""
-draft = true
 title = "Faculdade não é sobre escrever bons códigos"
 
 +++
