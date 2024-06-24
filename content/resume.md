@@ -6,7 +6,7 @@ draft: false
 
 # Marcos Felipe
 
-I'm a Brazilian Full Stack Developer with over six years of experience in
+I'm a Brazilian Full Stack Developer with over 10 years of experience in
 web application development. Adept to resolve most diverse IT problems and able
 to manging all stages of the software development life-cycle. Recognized with strong technicals
 skills and actually in process to increase the soft skills.
